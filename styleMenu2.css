@@ -135,7 +135,7 @@ nav select {
 
 table, td, tr.recipe
 {
-	width:50%;
+	width:60%;
 	text-align:left; 
 	margin-left:1%; 
 	margin-right:99%;   
@@ -156,19 +156,19 @@ table, td, tr.recipe
 @media only screen and (max-width : 650px) and (min-width : 481px) {
    /* Tablet view: 37.5% */
    .recipe {
-    width: 90%;
+    width: 80%;
    }
 }
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
    /* Small Tablet view: 25% */
    .recipe {
-    width: 50%;
+    width: 60%;
    }
 }
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
    /* Mobile Phone View: 12.5% */
    .recipe {
-    width: 50%;
+    width: 60%;
    }
 }
 
@@ -508,19 +508,19 @@ table.chart {
 @media only screen and (max-width : 650px) and (min-width : 481px) {
    /* Tablet view: 37.5% */
    .chart {
-      width: 90%;
+      width: 80%;
    }
 }
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
    /* Small Tablet view: 25% */
    .chart {
-      width: 90%;
+      width: 50%;
    }
 }
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
    /* Mobile Phone View: 12.5% */
    .chart {
-      width: 90%;
+      width: 50%;
    }
 }
 
@@ -554,6 +554,67 @@ table.chart {
    /* Mobile Phone View: 0% */
    .resDiv {
       margin-left: 15%;
+   }
+}
+
+.holResDiv {
+    padding:0 16px; 
+    font-size:25px; 
+    margin-left: 15%;
+}
+
+@media only screen and (max-width : 480px) {
+   /* Computer view: 15% */
+   .holResDiv {
+      margin-left: 0%;
+   }
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 11.25% */
+   .holResDiv {
+      margin-left: 7.5%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small Tablet view: 7.5% */
+   .holResDiv {
+      margin-left: 11.25%;
+   }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Mobile Phone View: 0% */
+   .holResDiv {
+      margin-left: 15%;
+   }
+}
+
+.holBanner {
+    background-color: tan;
+    width: 61%;
+}
+
+@media only screen and (max-width : 480px) {
+   /* Computer view: 50% */
+   .holBanner {
+      width: 81%;
+   }
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 37.5% */
+   .holBanner {
+      width: 81%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small Tablet view: 25% */
+   .holBanner {
+      width: 61%;
+   }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Mobile Phone View: 12.5% */
+   .holBanner {
+      width: 61%;
    }
 }
 

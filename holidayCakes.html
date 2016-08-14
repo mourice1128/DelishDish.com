@@ -10,12 +10,6 @@
 		<title>DelishDish.com - Holiday Cakes</title>
 	</head>
 	<body>
-	<script type="text/javascript">
-		function showPopup(url) {
-		newwindow=window.open(url,'name','height=300,width=500,top=300,left=500,resizable');
-		if (window.focus) {newwindow.focus()}
-		}
-	</script>
 		<a href="top"></a>		
 <nav class="nav">
 	<ul>
@@ -170,7 +164,7 @@
 	<a style="float: left;"href="cakes.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
 	<h2><a style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; HOLIDAY CAKES</h2>
         <p>These will give you an idea for holiday cakes.</p>
-        <p style="background-color: tan; width: 50%;">
+        <p  class="holBanner">
             <a href='holidayCakes.html#Val'><img src="Pictures/valPic.png" width=50 height=50></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href='holidayCakes.html#SP'><img src="Pictures/SPpic.png" width=50 height=50></a>
@@ -187,7 +181,7 @@
 </div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
     <div id="Val">
-        <font style="color: #f2082c; text-align: center; font-size:25px; padding-right: 50px; padding-left: 200px;">VALENTINE'S DAY CAKES</font>
+        <font class="holResDiv" style="color: #f2082c;">VALENTINE'S DAY CAKES</font>
     </div>
 		<div>
 			<table class="recipe">
@@ -241,7 +235,7 @@
     <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
     <div id="SP">
-        <font style="color: #08f708; text-align: center; font-size:25px; padding-right: 50px; padding-left: 200px;">ST. PATRICK'S DAY CAKES</font>
+        <font class="holResDiv" style="color: #08f708;">ST. PATRICK'S DAY CAKES</font>
     </div>
     <div>
 			<table class="recipe">
@@ -294,7 +288,7 @@
     <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
         <div id="Easter">
-        <font style="color: #85f1fa; text-align: center; font-size:25px; padding-right: 50px; padding-left: 200px;">EASTER CAKES</font>
+        <font class="holResDiv" style="color: #85f1fa;">EASTER CAKES</font>
     </div>
 		<div>
 			<table class="recipe">
@@ -348,7 +342,7 @@
     <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
     <div id="4th">
-        <font style="color: #4d4dea; text-align: center; font-size:25px; padding-right: 50px; padding-left: 200px;">4<sup><small>TH</small></sup> OF JULY CAKES</font>
+        <font class="holResDiv" style="color: #4d4dea;">4<sup><small>TH</small></sup> OF JULY CAKES</font>
     </div>
     <div>
 			<table class="recipe">
@@ -401,50 +395,154 @@
     <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
         <div id="Halloween">
-        <font style="color: #fc6e06; text-align: center; font-size:25px; padding-right: 50px; padding-left: 200px;">HALLOWEEN CAKES</font>
+        <font class="holResDiv" style="color: #fc6e06;">HALLOWEEN CAKES</font>
     </div>
 		<div>
 			<table class="recipe">
 				<tbody>
 					<tr>
 						<td colspan="2" rowspan="1">
-							<a class="rlink" href='Pictures/cupcakes1.jpg' onClick='showPopup(this.href);return(false);'>** UNKOWN RECIPE **</a>
+							<font class="rlink">Scarecrow Carrot Cake</font>
 						</td>
 					</tr>
 					<tr>
 						<td>
 							<ul class="none">
-								<li>2<font class="frac">&frac12;</font> Cups Flour</li>
-								<li>2 tsp Baking Powder</li>
-								<li><font class="frac">&frac12;</font> tsp Baking Soda</li>
-								<li><font class="frac">&frac14;</font> tsp Salt</li>
-								<li><font class="frac">&frac12;</font> Cup Unsalted Butter, Room Temp</li>
+								<li>2 pkgs. (18 oz. each) Carrot Cake Mix</li>
+								<li>2 Oranges, Zested and Juiced</li>
+								<li>2 Apples, Peeled and Grated</li>
+								<li>2 Cups Chopped Walnuts</li>
+								<li>1 Cup Sweetened Dried Cranberries</li>
+                                <li>3 Cans (16 oz. each) Cream Cheese frosting, Divided and<br>
+                                    Colored with Brown, Yellow, and Orange Food Coloing</li>
+                                <li>2 Mini Cream-Filled Chocolate Sandwich Cookies, Like Mini Oreos<sup>&reg;</sup></li>
+								<li>4 Blue-Colored Taffy Cadies, Like Airheads<sup>&reg;</sup>, Divided <br><font class="optional"> (If using Airheads<sup>&reg;</sup>, lightly soften taffy in for 15 secs. to make pliable)</font></li>
+                                <li>2 Brown-Colored Mini M&M's<sup>&reg;</sup></li>
+								<li>1 Green-Colored Sugar-Coated Candy Ribbon or Fruit Roll Up<sup>&reg;</sup></li>
 							</ul>
 						</td>
 						<td>
 							<ul class="none">
-								<li>1<font class="frac">&frac12;</font> Cups Sugar</li>
-								<li>3 Eggs, Room Temp</li>
-								<li>1 tsp Vanilla</li>
-								<li><font class="frac">&frac12;</font> Cup Milk, Room Temp</li>
-								<li>20 Oz. Can of Crushed Pineapple, Drained & Pureed</li>
+								<li>1 Red-Colored Mini M&M<sup>&reg;</sup></li>
+								<li>1 Red-Colored Regular-Size M&M<sup>&reg;</sup></li>
+								<li>1 Can (16 oz.) Chocolate Frosting</li>
+								<li>12 oz. White-Colored Candy Melts, Melted</li>
+								<li>2 tsp Vegetable Shortening</li>
+                                <li>4 pkgs. (.68oz. each) Cookie Sticks, Like Golden Oreo Fun Stix<sup>&reg;</sup></li>
+								<li>1 pkg. (.68 oz.) Crispy Cracker Sticks, Like Pringles Stix<sup>&reg;</sup></li>
+								<li>3 Lg. Ice-Cream Waffle Bowls</li>
+								<li>8 oz. Bittersweet Chocolate, Melted</li>
+								<li>40 Orange and/or Yellow Mini M&M's<sup>&reg;</sup></li>
 							</ul>
 						</td>
 					</tr>
 					<tr>
 						<td colspan="2" rowspan="1">
 							<ol class="some">
-								<li>Preheat oven to 350&deg; and line cupcake tray with 24 paper liners.</li>
-								<li>Whisk together the flour, baking powder, baking soda and salt in a medium bowl and set aside.</li>
-								<li>Cream the butter and sugar together in a mixture for several minutes.</li>
-								<li>Add the eggs one at a time, scrapping down the sides of the bowl with each addition.</li>
-								<li>Add the vanilla and mix until combined.</li>
-								<li>Add the flour mixture to the sugar mixture in three additions with the milk in two additions (flour, milk, flour, milk, flour).</li>
-								<li>Mix until combined with each addition.</li>
-								<li>Add the pineappleand mix until combined.</li>
-								<li>Fill cups about <font class="frac">&frac23;</font> full and bake for about 15 minutes.</li>
+								<li>Bake Cakes:
+                                    <ol class="some">
+                                        <li>Preheat oven to 325&deg;</li>
+                                        <li>Grease and flour two 2<font class="frac">&frac12;</font> qt. oven-safe bowls.</li>
+                                        <li>Prepare cake mixes according to directions, replacing <font class="frac">&frac12;</font> cup water with orange juice.</li>
+                                        <li>Stir in 2 tsp. orange zest and next 3 ingredients; divide between bowls.</li>
+                                        <li>Bake for 1<font class="frac">&frac12;</font> hours, or until done. (Cover with foil if the tops brown too quickly)</li>
+                                        <li>Let cool in bowls for 10 minutes; invert onto cooling racks.</li>
+                                        <li>Let cakes cool completely; trim tops of cakes to make level.</li>
+                                    </ol></li>
+								<li>Assemble Head:
+                                    <ol class="some">
+                                        <li>Reserve <font class="frac">&frac14;</font> cup cream cheese frosting.</li>
+                                        <li>In a bowl, blend remaining cream cheese frosting and brown and yellow food coloring to create desired beige color.</li>
+                                        <li>Place 1 cake on platter, plate, or cutting board with the flat side up; spread with 1 cup beige-colored frosting.</li>
+                                        <li>Top with 2<sup>nd</sup> cake to form the head.</li>
+                                        <li>Coat cake with remaining beige frosting.</li>
+                                    </ol></li>
+								<li>Create Face:
+                                    <ol class="some">
+                                        <li>Twist and separate sandwich cookies, keeping cream layer intact; discard (or eat LOL) the sides without cream.</li>
+                                        <li>Break off 2 pea-sized balls of blue taffy; press into flat disks.</li>
+                                        <li>Using the reserved cream cheese frosting, attach blue disks, then brown candies to cream layer to create the eyes; pipe on pupils.</li>
+                                        <li>Cut 2 circles from green candy ribbon; pipe button dots on each.</li>
+                                        <li>Glue with food glue mini red candy onto large red candy for the nose.</li>
+                                        <li>Spoon <font class="frac">&frac14;</font> cup chocolate frosting into pastry bag, fitted with small round tip; pipe an "X" on the nose.</li>
+                                        <li>Using the chocolate frosting, pipe mouth, then attach eyes, nose, and buttons to form the face.</li>
+                                    </ol></li>
+								<li>Add Hair:
+                                    <ol class="some">
+                                        <li>In a bowl, blend melted candy melts, shortening, and orange food coloring to create desired color.</li>
+                                        <li>Cut cookie sticks in <font class="frac">&frac12;</font>; dip in orange candy melts.</li>
+                                        <li>Place on lined baking sheet; let sit for 10 minutes.</li>
+                                        <li>Arrange orange sticks and cracker sticks on head, gently pressing into frosting for hair.</li>
+                                        <li>Cut 2 waffle bowls into 6 wedges each.</li>
+                                        <li>Dip rim of remaining waffle bowl and the wide edge of wedges in melted chocolate; place on lined baking sheet; let sit for 10 minutes.</li>
+                                        <li>Using chocolate frosting as glue, arrange wedges and bowl to create hat.</li>
+                                        <li>Cut remaining blue taffy into <font class="frac">&frac34;</font>"-wide lengths; attach to hat to form band.</li>
+                                    </ol></li>
+								<li>Decorate Scarecrow:
+                                    <ol class="some">
+                                        <li>Using pastry bag with star tip, pipe chocolate frosting rosette onto hat band, then rosettes around cake base to create collar.</li>
+                                        <li>Press orange and yellow candies into rosettes, alternating colors.</li>
+                                        <li>Garnish with chocolate leaves, if desired.</li>
+                                        <li>Stir in 2 tsp. orange zest and next 3 ingredients; divide between bowls.</li>
+                                        <li>Bake for 1<font class="frac">&frac12;</font> hours, or until done. (Cover with foil if the tops brown too quickly)</li>
+                                        <li>Let cool in bowls for 10 minutes; invert onto cooling racks.</li>
+                                        <li>Let cakes cool completely; trim tops of cakes to make level.</li>
+                                    </ol></li>
 							</ol>
-							<div><a style="color: green; text-decoration: none;" href='cakeFrosting.html#mangoFrosting'>Click Here For The Mango Frosting For These Cupcakes</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
+		</div>
+<br>
+    <br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+    </div>
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Spider-Surprise Cupcakes</font>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<ul class="none">
+								<li><font class="frac">&frac12;</font> Cup Orange Juice</li>
+								<li><font class="frac">&frac12;</font> Cup Olive Oil</li>
+								<li>2 Lg. Eggs</li>
+								<li><font class="frac">&frac34;</font> Cup Sugar</li>
+								<li><font class="frac">&frac34;</font> Cup Carrots, Grated</li>
+                                <li>1 tsp Orange Zest</li>
+                                <li>1<font class="frac">&frac14;</font> Cup Flour</li>
+						</td>
+						<td>
+							<ul class="none">
+								<li><font class="frac">&frac14;</font> Cup Cornmeal</li>
+								<li>1 tsp Baking Powder</li>
+								<li><font class="frac">&frac12;</font> tsp Salt</li>
+								<li>3 Cups Powdered Sugar</li>
+								<li>4-5 tbsp Milk</li>
+                                <li>Black Decorating Gel</li>
+								<li>18 Gummy Spider Candies</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<ol class="some">
+								<li>Preheat oven to 350&deg;</li>
+                                <li>In bowl, combine 1<sup>st</sup> 6 ingredients.</li>
+                                <li>Whisk in next 4 ingredients.</li>
+                                <li>Divide batter among 18 liners, placed in muffin pan.</li>
+                                <li>Bake about 18 minutes or until done; cool completely.</li>
+                                <li>In bowl, blend powdered sugar, and enough milk to make a smooth glaze.</li>
+                                <li>Spoon 1 tbsp of glaze over each cupcake.</li>
+                                <li><font class="option">For Web:</font><br>
+                                    <i>Pipe black gel spiral over glaze. Starting in the center of the cupcake, drag toothpick through frosting to the edge of the cupcake. Repeat to create web, then top with spiders.</i></li>
+							</ol>
 						</td>
 					</tr>
 				</tbody>
@@ -455,7 +553,7 @@
     <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
     <div id="Christmas">
-        <font style="color: #b20000; text-align: center; font-size:25px; padding-right: 50px; padding-left: 200px;">CHRISTMAS CAKES</font>
+        <font class="holResDiv" style="color: #b20000;">CHRISTMAS CAKES</font>
     </div>
     <div>
 			<table class="recipe">
