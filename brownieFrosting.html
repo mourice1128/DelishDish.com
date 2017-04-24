@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Brownie Frosting</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
-	<a href="top"></a>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -161,20 +162,31 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<div style="padding:0 16px; color:white; font-size:18px;">
-		<a style="float: left;"href="frosting.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-			<h2><a style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; BROWNIE FROSTING</h2>
-			<p>Scroll down to find the frosting you would like for your brownies.</p>
-		</div>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>    
+    <div>
+	<a href="frosting.html" title="Back to All Frostings"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <h2>Brownie Frostings</h2>
+        <p class="story">Welcome to the brownie frosting section!<br><br>Scroll down to see the delicious brownie frosting recipes that we have.</p>
+    </div>
+    <!--<p><sub><img class="pgPic" src="Pictures/alcoholicHomer.jpg" alt="Alcoholic Homer" title="Alcoholic Homer"></sub></p>-->
+</div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<div id="chocBrowFrosting"></div>
+<div id="chocBrowFrosting">
 			<table class="recipe">
 				<tbody>
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Chocolate Brownie Frosting</font>
 								<div class="servings">
-									(Makes about 1<font class="frac">&frac23;</font> Cups For Chocolate Brownies)
+									(Makes about 1<font class="frac">&frac23;</font> Cups)
 								</div>
 						</td>
 					</tr>
@@ -204,7 +216,7 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
+</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
 			<table class="recipe">
@@ -245,9 +257,8 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-		</div>
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

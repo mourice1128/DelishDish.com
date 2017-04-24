@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Misc. Desserts</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
-	<a href="top"></a>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -161,11 +162,24 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-		<div style="padding:0 16px; color:white; font-size:18px;">
-		<a style="float: left;"href="dessert.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-			<h2><a style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; MISC. DESSERTS</h2>
-			<p>Scroll down to find the dessert you would like to eat.</p>
-		</div>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>
+    <div>
+        <a href="dessert.html" title="Back to All Desserts"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <h2>Misc. Desserts</h2>
+        <p class="story">Welcome to the miscellaneous dessert section!<br><br>Please scroll down to see the desserts that don't always fit in with the other desserts, but always fit in our hearts.</p>
+    </div>
+    <!-- THIS IS WHERE YOU WOULD PUT THE PICTURE FOR THE SECTION -->
+
+    <!--<p><sub><img class="pgPic" src="Pictures/alcoholicHomer.jpg" alt="Alcoholic Homer" title="Alcoholic Homer"></sub></p>-->
+</div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
 		<div>
 			<table class="recipe">
@@ -189,7 +203,6 @@
 								<li>12 oz Golden Graham<sup>&reg;</sup> Cereal</li>
 							</ul>
 						</td>
-						</td>
 					</tr>
 					<tr>
 						<td colspan="2" rowspan="1">  
@@ -204,7 +217,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -229,7 +241,6 @@
 								<li>1 Can (14 oz.) Sweetened Condensed Milk</li>
 							</ul>
 						</td>
-						</td>
 					</tr>
 					<tr>
 						<td colspan="2" rowspan="1">  
@@ -247,7 +258,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -275,7 +285,6 @@
 								<li>2 Pkgs. Pudding (Chocolate or Butterscotch)</li>
 							</ul>
 						</td>
-						</td>
 					</tr>
 					<tr>
 						<td colspan="2" rowspan="1">  
@@ -294,7 +303,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -321,7 +329,6 @@
                                 <li>2 Cups Fresh Fruit <font class="optional">(Whatever kind desired)</font></li>
 							</ul>
 						</td>
-						</td>
 					</tr>
 					<tr>
 						<td colspan="2" rowspan="1">  
@@ -339,7 +346,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -355,7 +361,7 @@
 						<td style="width: auto;">
 							<ul class="none">
                                 <li><font class="frac">&frac14;</font> Butter (<font class="frac">&frac12;</font> Stick)</li>
-                                <li>1 Cup Sugar</font></li>
+                                <li>1 Cup Sugar</li>
                                 <li>1 tbsp Baking Powder</li>
                                 <li>1 Can (29 oz) Sliced Peaches</li>
                                 <li><font class="frac">&frac14;</font> tsp Cinnamon</li>
@@ -368,7 +374,6 @@
                                 <li><font class="frac">&frac14;</font> tsp Nutmeg</li>
                                 <li><font class="frac">&frac12;</font> tsp Lemon Peel</li>
 							</ul>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -388,7 +393,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -421,7 +425,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -461,9 +464,50 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Pebble Trail Mix Bars</font>
+                        </td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+                                <li><font class="frac">&frac12;</font> Cup (1 stick) Butter</li>
+                                <li><font class="frac">&frac34;</font> Cup Peanut Butter</li>
+                                <li>1 Pkg (10<font class="frac">&frac12;</font> Oz) Mini Marshmallows</li>
+							</ul>
+						</td>
+						<td style="width: auto;">
+							<ul class="none">
+                                <li>5 Cups Pebble-Type Cereal</li>
+                                <li>2 Cups Peanuts</li>
+                                <li>2 Cups Raisins</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+                                <li>In a lg. bowl, microwave butter & peanut butter for 1-1<font class="frac">&frac12;</font>, until butter is melted; stir until blended.</li>
+								<li>Add marshmallows; toss to coat.</li>
+								<li>Microwave an additional 1-1<font class="frac">&frac12;</font>, until marshmallows are melted & mix is well blended; stir every 45 seconds.</li>
+								<li>Add remaining ingredients; mix well.</li>
+                                <li>Press cereal mixture firmly into a lightly greased 15"x10"x1" pan; refridgerate for 1 hr, or until firm.</li>
+                                <li>Cut into bars and serve.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

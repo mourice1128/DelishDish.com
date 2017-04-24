@@ -4,12 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Drinks</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -160,12 +162,25 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-		<div style="padding:0 16px; color:white; font-size:18px;">
-		<a style="float: left;"href="index.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-			<h2><a style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; DRINKS</h2>
-			<p>Select one of the following links for the specific type of beverage you would like.</p>
-		</div>
-			<ul>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>
+    <div>
+        <a href="index.html" title="Back to Home"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <h2>Drinks</h2>
+        <p class="story">Welcome to the drink section!<br><br>Please select the type of drink you would like to see fill your glass.</p>
+    </div>
+    <!-- THIS IS WHERE YOU WOULD PUT THE PICTURE FOR THE SECTION -->
+
+    <!--<p><sub><img class="pgPic" src="Pictures/alcoholicHomer.jpg" alt="Alcoholic Homer" title="Alcoholic Homer"></sub></p>-->
+</div>
+			<ul class="splashBullets">
 				<li><a class="splashPageLinks" href="coldBevs.html">Cold Drinks</a></li><br>
 				<li><a class="splashPageLinks" href="hotBevs.html">Hot Drinks</a></li><br>
 				<li><a class="splashPageLinks" href="alchBevs.html">Alcoholic Drinks</a></li><br>
@@ -174,5 +189,6 @@
 				<li><a class="splashPageLinks" href="holidayBevs.html">Holiday Drinks</a></li><br>
 			</ul>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

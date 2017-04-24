@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Cookies</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
-	<a href="top"></a>	
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -161,10 +162,24 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<div style="padding:0 16px; color:white; font-size:18px;">
-	<a style="float: left;"href="cookies.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-	<h2 style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; REGULAR COOKIES</h2>
-		</div>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>
+    <div>
+        <a href="cookies.html" title="Back to All Cookies"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <h2>Regular Cookies</h2>
+        <p class="story">Welcome to the cookie section!<br><br>Please scroll down the page to see the delicious cookie ideas.</p>
+    </div>
+    <!-- THIS IS WHERE YOU WOULD PUT THE PICTURE FOR THE SECTION -->
+
+    <!--<p><sub><img class="pgPic" src="Pictures/alcoholicHomer.jpg" alt="Alcoholic Homer" title="Alcoholic Homer"></sub></p>-->
+</div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
 		<div>
 			<table class="recipe">
@@ -172,7 +187,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">America's Classic No-Fail Chocolate Chip Cookies</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -202,7 +216,7 @@
 								<li>Add eggs and vanilla; beat until well blended.</li>
 								<li>Add flour mixture, mix until combined.</li>
 								<li>Stir in chocolate chips.</li>
-								<li>Drop cookie dough by rounded tbsp onto ungreased cookie sheet about 1-1<font class="frac">&frac12;</font>" apart.</li>
+								<li>Drop cookie dough by rounded tbsp onto ungreased cookie sheet about 1"- 1<font class="frac">&frac12;</font>" apart.</li>
 								<li>Bake 12-14 minutes or until edges are crisp, but centers are still soft.</li>
 								<li>Let stand on cookie sheet about 2 minutes on cookie sheet prior to moving to wire cooling rack.</li>
 							</ol>
@@ -210,7 +224,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -220,7 +233,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Soft Cut-Out Sugar Cookies</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -282,7 +294,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -292,7 +303,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Chocolate Oatmeal No-Bake Cookies</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -328,7 +338,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -338,7 +347,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Simple Sugar Cookies</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -374,9 +382,253 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Power Cookies</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>4 Cups Rolled Oats</li>
+								<li>1 Can (15 Oz.) Cannellini Beans, Drained & Rinsed</li>
+								<li><font class="frac">&frac12;</font> Cup Sugar</li>
+								<li><font class="frac">&frac12;</font> Cup Brown Sugar</li>
+                                <li>1 tsp Vanilla</li>
+                                <li>1 tsp Baking Soda</li>
+							</ul>
+                        </td>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1 tsp Baking Powder</li>
+								<li>1 tsp Cinnamon</li>
+								<li><font class="frac">&frac12;</font> Cup Dates, Pitted & Chopped</li>
+                                <li><font class="frac">&frac12;</font> Cup Flaked Coconut</li>
+                                <li><font class="frac">&frac12;</font> Cup Raisins</li>
+                                <li><font class="frac">&frac12;</font> Cup Walnuts, Chopped</li>
+                                <li><font class="frac">&frac12;</font> Cup Mango, Chopped</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Preheat oven to 325&deg;.</li>
+								<li>Grease cookie sheets; grind the oats in a blender, until resembling coarse flour.</li>
+								<li>In a medium bowl, mash the beans to a smooth paste.</li>
+								<li>Stir in the sugars, and vanilla, until well blended.</li>
+								<li>Combine the ground oats, baking powder, baking soda, and cinnamon; blend into the bean mixture.</li>
+                                <li>Stir in the dates, coconut, raisins, and walnuts.</li>
+                                <li>Drop dough by heaping spoonfuls onto the prepared cookie sheet.</li>
+                                <li>Bake for 10-15 minues, until golden.</li>
+                                <li>Cool on baking sheets for 5 minutes; move to wire cooling racks to cool completely.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Soft Sugar Cookies</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1 Cup Butter</li>
+								<li>1<font class="frac">&frac12;</font> Cups Sugar</li>
+								<li>3 Eggs</li>
+								<li>1 tsp Vanilla</li>
+							</ul>
+                        </td>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>3<font class="frac">&frac12;</font> Cups Flour</li>
+								<li>2 tsp Cream of Tartar</li>
+								<li>1 tsp Baking Soda</li>
+                                <li><font class="frac">&frac12;</font> tsp Salt</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Cream the butter and add the sugar gradually, beat until light and fluffy.</li>
+								<li>Add eggs, one-at-a-time, mixing well after each addition.</li>
+								<li>Stir in vanilla.</li>
+								<li>Add flour, cream of tartar, baking soda, and salt gradually to the cream mixture, stirring by hand.</li>
+								<li>Cover dough and chill overnght.</li>
+                                <li>After chilling overnight, preheat oven to 375&deg;.</li>
+                                <li>Roll dough out on a floured surface to <font class="frac">&frac18;</font>"-<font class="frac">&frac14;</font>" thick and cut into your desired shapes.</li>
+                                <li>Place cookies onto prepared baking sheets.</li>
+                                <li>Bake for 6-8 minutes, or until cookies have a golden appearance.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Chocolate Chip Wheat Cookies</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>2 Cups Shortening</li>
+								<li>1<font class="frac">&frac12;</font> Cups Sugar</li>
+								<li>4 Eggs</li>
+								<li>2 tsp Vanilla</li>
+                                <li>2 tsp Baking Soda</li>
+							</ul>
+                        </td>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>4<font class="frac">&frac12;</font> Cups Whole Wheat Flour</li>
+								<li>2 tsp Salt</li>
+								<li>4 tsp Water</li>
+                                <li>1<font class="frac">&frac12;</font> Cups Bropwn Sugar</li>
+                                <li>2 Cups Chocolate Chips</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+                                <li>Preheat oven to 375&deg;.</li>
+								<li>Blend shortening with brown sugar; add sugar and eggs.</li>
+								<li>Add all other ingredients, except flour and mix well.</li>
+								<li>Add flour, 1 cup at a time; add chocolate chips.</li>
+								<li>Drop by spoonfuls on an ungreased cookie sheet.</li>
+								<li>Bake for about 8-10 minutes.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Jelly-Filled Thumbprint Cookies</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>Non-Stick Cooking Spray</li>
+								<li><font class="frac">&frac12;</font> Cup Brown Sugar, Packed</li>
+								<li>1 Cup Shortening</li>
+								<li>3 Lg. Eggs, Separated</li>
+                                <li>2 tbsp. Water</li>
+							</ul>
+                        </td>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1<font class="frac">&frac12;</font> tsp. Vanilla</li>
+								<li><font class="frac">&frac14;</font> tsp. Salt</li>
+								<li>2 Cups Flour</li>
+                                <li>2 Cups Pecans, Finely Chopped</li>
+                                <li>1 Cup Jelly, Any Flavor</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+                                <li>Preheat oven to 350&deg;.</li>
+								<li>Adjust the oven rack to the middle position; lightly coat 2 cookings sheets with the cooking spray.</li>
+								<li>Beat brown sugar & shortening in a medium bowl with mixer at medium speed for about 2 minutes, or until fluffy.</li>
+								<li>Scrape down the sides of the bowl; add yolks, water, vanilla, & salt, then beat until well blended.</li>
+								<li>Add flour while mixer is going on low speed; contrinue beating until the mixture is well blended.</li>
+								<li>Beat egg whites in a shallow bowl, until foamy; place pecans in a separate shallow bowl.</li>
+                                <li>Measure out about 2 tsp. of dough for each cookie; form into balls by rolling between palms.</li>
+                                <li>Dip each dough ball into the egg whites, then roll in pecans.</li>
+                                <li>Place dough balls onto a prepared cookie sheet.</li>
+                                <li>Using your thumb, make a rounded indent in the top of each cookie.</li>
+                                <li>Bake for about 10 minutes; remove from the oven.</li>
+                                <li>Place about 1 tsp. of the jelly into each indent of the cookie.</li>
+                                <li>Continue baking for an additional 5-7 minutes, or until lightly browned.</li>
+                                <li>Remove from oven & let cool for several minutes before serving.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Snickers<sup><small>&reg;</small></sup>Gift Giving Cookies</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li><font class="frac">&frac12;</font> Cup Quick Oats</li>
+								<li>2<font class="frac">&frac12;</font> Cups Flour</li>
+								<li><font class="frac">&frac12;</font> tsp. Baking Soda</li>
+								<li>1 tsp. Salt</li>
+                                <li><font class="frac">&frac12;</font> Cup Butter, Softened</li>
+							</ul>
+                        </td>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1<font class="frac">&frac12;</font> Cups Light Brown Sugar</li>
+								<li>2 Eggs</li>
+								<li>8 Regular-Sized Snickers<sup><small>&reg;</small></sup> Bars, Chopped</li>
+                                <li>6 Plastic Treat Bags</li>
+                                <li>6 (18" ea) Strands Ribbon</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+                                <li>Preheat oven to 350&deg;; line cookie sheet with parchment paper.</li>
+								<li>In a Lg. bowl, combine oats, flour, baking soda, and salt; set aside.</li>
+								<li>In a 2<sup>nd</sup> bowl, beat the softened butter and brown sugar for about 3 minutes, or until light and fluffy.</li>
+								<li>Add the eggs one at a time, beating well after each addition.</li>
+								<li>Slowly add the oat mixture.</li>
+								<li>Fold in the chopped Snickers<sup><small>&reg;</small></sup> bars.</li>
+                                <li>Drop heaping tbsp. of the mixture onto the prepared cookie sheet at about 2" apart; slightly flatten the dough.</li>
+                                <li>Bake for about 10-12 minutes, or until golden brown.</li>
+                                <li>Once cookies have completely cooled, stack 5 and slip them into the treat bags.</li>
+                                <li>Tie the bags closed with the ribbon pieces.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

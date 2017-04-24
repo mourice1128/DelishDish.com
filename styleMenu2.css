@@ -4,14 +4,134 @@ body
 	background-color:#333;
 	font-family: ariel; /*Font being used*/
 	font-size: 15px;
-	color: #009999;
+	color: #80ced6;
+}
+
+img.back
+{
+    max-width: 50px;
+    max-height: 50px;
+    width: 10%;
+    height: 10%;
+    padding-top: 1%;
+    position: relative;
+    float: left;
+}
+
+img.pgPic
+{
+    max-width: 61%;
+    max-height: 200px;
+    width: 100%;
+    height: 100%;
+    padding-top: 0%;
+    position: relative;
+}
+
+div.pgPic2
+{
+    max-width: 100%;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    position: relative;
+}
+
+img.pgPic2
+{
+    max-width: 100%;
+    max-height: 500px;
+    width: 100%;
+    height: 300px;
+    padding-top: 0%;
+    position: relative;
+}
+
+div.pgPic3
+{
+    max-width: 50%;
+    max-height: 300px;
+    width: 100%;
+    height: 100%;
+    padding-top: 0%;
+    position: relative;
+}
+
+img.pgPic3
+{
+    max-width: 50%;
+    max-height: 300px;
+    width: 100%;
+    height: 100px;
+    padding-top: 0%;
+    position: relative;
+}
+
+@media only screen and (max-width : 480px) {
+   /* Computer view: 50% */
+   img.pgPic {
+    width: 80%;
+   }
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 37.5% */
+   img.pgPic {
+    width: 80%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small Tablet view: 25% */
+   img.pgPic {
+    width: 60%;
+   }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Mobile Phone View: 12.5% */
+   img.pgPic {
+    width: 60%;
+   }
+}
+
+img.bannerIcons
+{
+   position: relative;
+   width: 10%;
+   max-width: 75px;
+   height: 10%;
+   max-height: 75px;
+   padding-top: 1%;
+}
+
+p.story
+{
+    color: white;
+    font size: 18px;
+}
+
+div.divIndent
+{
+    padding: 0 16px;
+    color: white;
+}
+
+p.construction
+{
+    text-align: center;
+    font-size: 22px;
+    color: #80ced6;
+}
+
+div.googleTrans
+{
+    padding: 10px 50px;
 }
 
 .nav
 {
   display: table;
   margin: 5px auto;
-  box-shadow: 0px 4px 0px #009999;
+  box-shadow: 0px 4px 0px #80ced6;
 }
 
 nav select 
@@ -127,9 +247,9 @@ nav select {
   text-shadow: 0px -1px 0px rgba(0,0,0,.2);
 }
 
-.nav ul li:hover { background-color: #009999; }
+.nav ul li:hover { background-color: #80ced6; }
 
-.nav ul li a:hover { background-color: #009999; }
+.nav ul li a:hover { background-color: #80ced6; }
 
 /* END OF NAVIGATION BAR */
 
@@ -140,8 +260,8 @@ table, td, tr.recipe
 	margin-left:1%; 
 	margin-right:99%;   
 	font-weight: bold;
-	background-color: #d9d9d9;
-	border: 2px solid #009999;
+	background-color: #fefbd8;
+	border: 2px solid #80ced6;
 	padding: 2px;
 	border-spacing: 2.5px;
 	color:black;
@@ -245,7 +365,7 @@ a.rlink
 {
 	color: black;
 	text-decoration: none;
-	background: #009999;
+	background: #80ced6;
 	font-size: 20px;
 }
 
@@ -257,7 +377,7 @@ font.rlink
 
 a.topLink
 {
-	color: #009999;
+	color: #80ced6;
 	text-decoration: none;
 	font-size: 9px;
 	text-align: center;
@@ -273,6 +393,25 @@ div.topLinkDiv
 {
     position: absolute;
     left: 300px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: #80ced6;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+    background-color: #555;
 }
 
 #tableImg
@@ -311,7 +450,7 @@ div.overflow
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background:#009999; 
+    background:#80ced6; 
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.5); 
 }
 
@@ -328,7 +467,7 @@ form
 	padding: 8px 15 px;
 	background: rgba (50,50,50,0.2);
 	border: 0px solid #dbdbdb;
-	color: #009999;
+	color: #80ced6;
 	font-weight: bold;
 }
 
@@ -337,15 +476,15 @@ form
 	position: relative;
 	padding: 6px 15px;
 	left: -8px;
-	border: 2px solid #009999;
-	background-color: #009999;
+	border: 2px solid #80ced6;
+	background-color: #80ced6;
 	color: #fafafa;
 }
 
 .button:hover
 {
 	background-color: #fafafa;
-	color: #009999;
+	color: #80ced6;
 }
 
 .contact
@@ -354,7 +493,7 @@ form
 	margin: 5px;
 	padding: 5px;
 	height: 650px;
-	border: 3px solid #009999;
+	border: 3px solid #80ced6;
 	font-weight: bold; 
 	color: white; 
 	font-size: 18px; 
@@ -371,12 +510,19 @@ form
 a.splashPageLinks
 {
 	list-style-type: none;
-	text-decoration: none;
+	text-decoration-style: dotted;
 	padding: 0 50px;
 	margin-top: 0;
 	margin-bottom: 0;
-	font-size: 20px;
-	color: white;
+	font-size: 24px;
+	color: #80ced6;
+}
+
+ul.splashBullets
+{
+    color: #80ced6;
+    font-size: 24px;
+    list-style: square;
 }
 
 font.frac
@@ -479,7 +625,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 
 table.chart {
     border-collapse:collapse; 
-    border:2px solid #009999; 
+    border:2px solid #80ced6; 
     margin-bottom:10px; 
     width:50%; 
 }
@@ -494,7 +640,7 @@ table.chart {
 }
 
 .chart th {
-    background:#009999 top left repeat-x; 
+    background:#80ced6 top left repeat-x; 
     min-height:60px;
 }
 
@@ -534,37 +680,39 @@ table.chart {
 
 
 .resDiv {
-    padding:0 16px; 
+    padding:0 0; 
     color:white; 
-    font-size:25px; 
-    margin-left: 15%;
+    font-size:17px; 
+    margin: 0;
+    text-align: center;
+    width: 100%;
 }
-
+/*
 @media only screen and (max-width : 480px) {
-   /* Computer view: 15% */
+   /* Computer view: 15% 
    .resDiv {
       margin-left: 0%;
    }
 }
 @media only screen and (max-width : 650px) and (min-width : 481px) {
-   /* Tablet view: 11.25% */
+   /* Tablet view: 11.25% 
    .resDiv {
       margin-left: 7.5%;
    }
 }
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
-   /* Small Tablet view: 7.5% */
+   /* Small Tablet view: 7.5% 
    .resDiv {
       margin-left: 11.25%;
    }
 }
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
-   /* Mobile Phone View: 0% */
+   /* Mobile Phone View: 0% 
    .resDiv {
       margin-left: 15%;
    }
 }
-
+*/
 .holResDiv {
     padding:0 16px; 
     font-size:25px; 
@@ -598,31 +746,32 @@ table.chart {
 
 .holBanner {
     background-color: tan;
-    width: 61%;
+    width: 60%;
+    margin-left: 1%;
 }
 
 @media only screen and (max-width : 480px) {
    /* Computer view: 50% */
    .holBanner {
-      width: 81%;
+      width: 80%;
    }
 }
 @media only screen and (max-width : 650px) and (min-width : 481px) {
    /* Tablet view: 37.5% */
    .holBanner {
-      width: 81%;
+      width: 80%;
    }
 }
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
    /* Small Tablet view: 25% */
    .holBanner {
-      width: 61%;
+      width: 60%;
    }
 }
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
    /* Mobile Phone View: 12.5% */
    .holBanner {
-      width: 61%;
+      width: 60%;
    }
 }
 
@@ -649,7 +798,7 @@ input, button {
   font-size: 1em;
   padding: 3px 6px;
   margin: 0;
-  border: 1px solid #009999;
+  border: 1px solid #80ced6;
   outline: 0;
   box-shadow: none;
 }
@@ -668,7 +817,7 @@ input {
 
 button {
   position: relative;
-  background-color: #009999;
+  background-color: #80ced6;
   border-radius: 0 3px 3px 0;
   cursor: pointer;
 }

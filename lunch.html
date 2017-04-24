@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Lunch</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
-		<a href="top"></a>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -161,11 +162,22 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-		<div style="padding:0 16px; color:white; font-size:18px;">
-		<a style="float: left;"href="lunchLand.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-			<h2><a style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; <img src="Pictures/lunch.png" width="300" height="75"></h2>
-			<p>Scroll down the list to find the recipe you would like to make.</p>
-		</div>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>
+    <div>
+        <a href="lunchLand.html" title="Back to All Lunch"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <!--<h2>Lunch</h2>-->
+        <p><sub><img class="pgPic" src="Pictures/lunch.png" alt="Lunch" title="Lunch"></sub></p>
+        <p class="story">Welcome to the lunch section!<br><br>Please scroll down the page to see the delicious lunch menu ideas.</p>
+    </div>
+</div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
 		<div>
 			<table class="recipe">
@@ -173,7 +185,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Baked Turkey and Cheese Sandwiches</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -207,7 +218,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -217,7 +227,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Cresent Dogs with Dipping Sauce</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -251,7 +260,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -264,7 +272,6 @@
                             <div class="servings">
 								Children's Recipe
 							</div>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -294,7 +301,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -304,7 +310,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Cheesy Chicken Quesadilla</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -338,7 +343,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -348,7 +352,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Bacon Cheeseburger Pizza</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -382,7 +385,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -392,7 +394,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Smoky Slaw Dog</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -421,7 +422,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -431,7 +431,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">BBQ Beef Brisket Sandwiches w/Coleslaw</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -477,7 +476,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -510,7 +508,6 @@
 								<li>Taco Sauce, Salsa, and/or Sour Cream <font class="optional">(Optional)</font></li>
 							</ul>
 						</td>
-						</td>
 					</tr>
 					<tr>
 						<td colspan="2" rowspan="1">  
@@ -536,9 +533,113 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Chili in Tortilla Bowls</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1<font class="frac">&frac12;</font> Lbs. Ground Beef</li>
+								<li>1 Onion, Chopped</li>
+								<li>6 Burrito-Size Tortillas</li>
+								<li>1 Red Bell Pepper, Diced</li>
+							</ul>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>2 tbsp Chili Powder</li>
+								<li>1 Can (19 oz.) Red Kidney Beans, Rinsed & Drained</li>
+								<li>1 Can (11 oz.) Whole Kernal Corn, Drained</li>
+								<li>1 Jar (1 Lb. 8 oz.) Chunky Pasta Sauce</li>
+                                <li>1 Cup Cheddar Cheese, Shredded</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+                                <li>In a 12" skillet, brown ground beef over medium-high heat; stirring occasionally.</li>
+								<li>Add onion, red pepper, and chili powder; cook for about 5 minutes or until the onion is tender, while still stirring occasionally.</li>
+								<li>Stir in beans, corn, and pasta sauce.</li>
+								<li>Bring to a boil over high heat; reduse heat to low and simmer covered for about 20 minutes, while still stirring ocasionally.</li>
+								<li>Meanwhile, using one tortilla at a time, press into a 1-2 cup microwave-safe bowl to form a bowl shape.</li>
+								<li>Microwave on high for 1<font class="frac">&frac12;</font> minutes.</li>
+                                <li>Let cool for 1 minute.</li>
+                                <li>Gently lift out and arrange on a serving plate; repeat with each remaining tortillas.</li>
+                                <li>To serve, spoon chili into tortilla bowls, then sprinkle with cheese.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Budweiser<sup>&reg;</sup> BBQ Chicken Pizza</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+                            <div style="text-align: left; color: green;">For the crust:</div>
+                            <br>
+							<ul class="none">
+								<li>1<font class="frac">&frac34;</font>-2<font class="frac">&frac14;</font> Cups Flour</li>
+								<li>1 pkg. Fleischmann's<sup>&reg;</sup> Pizza Crust Yeast</li>
+								<li>1<font class="frac">&frac12;</font> tsp Sugar</li>
+								<li><font class="frac">&frac34;</font> tsp Salt</li>
+                                <li><font class="frac">&frac23;</font> Cup Very Warm Water</li>
+                                <li>3 tbsp Olive Oil</li>
+							</ul>
+						<td style="width: auto;">
+                            <div style="text-align: left; color: green;">Toppings:</div>
+                            <br>
+							<ul class="none">
+								<li>1 tbsp Olive Oil</li>
+								<li>2 Chicken Thighs, Boneless & Skinless</li>
+								<li><font class="frac">&frac12;</font> Cup Budweiser<sup>&reg;</sup> BBQ sauce</li>
+								<li><font class="frac">&frac18;</font> Cup Onions, Chopped</li>
+                                <li>1 Cup Mozzarella Cheese</li>
+                                <li>1 Cup Shredded Cheddar Cheese</li>
+                                <li>2 tbsp Cilantro, Chopped</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+                                <li>Preheat oven to 425&deg;.</li>
+								<li>Combine 1 cup of the flour, undisolved yeast, sugar, and salt in a lg. bowl.</li>
+								<li>Add very warm water and 3 tbsp of the olive oil <font class="optional">(leaving the 1 tbsp for step #9)</font>.</li>
+								<li>Bring to a boil over high heat; reduse heat to low and simmer covered for about 20 minutes, while still stirring ocasionally; mix until well blended.</li>
+								<li>Gradually add more of the flour until the dough is soft; Dough should form a ball and be slighty sticky.</li>
+								<li>Knead on a floured surface, adding additional flour as needed, until smooth and elastic.</li>
+                                <li>Pat dough with floured hands to fill greased pizza pan or baking sheet.</li>
+                                <li>Form a rim by pinching the edge of the dough.</li>
+                                <li>Heat the remaining tbsp of olive oilin a skillet over medium heat; add chicken and cookm for 5 minutes on each side.</li>
+                                <li>Remove the chicken and place onto a cutting board and let rest for 5 minutes.</li>
+                                <li>Cut into bit-size pieces; spread BBQ sauce over crust and top with onions and cheese, then with chicken.</li>
+                                <li>Bake on lowest oven rack for 12-15 minutes, until cheese is bubly and crust is browned.</li>
+                                <li>Sprinkle with cilantro prioe to serving.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

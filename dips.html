@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Dips</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
-	<a href="top"></a>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -161,11 +162,24 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<div style="padding:0 16px; color:white; font-size:18px;">
-	<a style="float: left;"href="snacks.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-	<h2><a style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; DIPS</h2>
-        <p>Make some dips for you party.</p>
-		</div>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>
+    <div>
+        <a href="snacks.html" title="Back to All Snacks"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <h2>Dips</h2>
+        <p class="story">Welcome to the dip section!<br><br>Please scroll down the page to see the delicious dips for various snacks at your party. You might also find some things to go along with these dips in the <a style="color: yellow;" href="superbowlHoliday.html#SB">Super Bowl</a> section.</p>
+    </div>
+    <!-- THIS IS WHERE YOU WOULD PUT THE PICTURE FOR THE SECTION -->
+
+    <!--<p><sub><img class="pgPic" src="Pictures/alcoholicHomer.jpg" alt="Alcoholic Homer" title="Alcoholic Homer"></sub></p>-->
+</div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
 		<div>
 			<table class="recipe">
@@ -200,7 +214,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -231,52 +244,15 @@
 						<td colspan="2" rowspan="1">  
 							<ol class="some">
 								<li>Preheat oven to 350&deg;.</li>
-								<li>Place cream cheese into a deep baking dish.</li>
-								<li>Stir until smooth.</li>
-								<li>Mix in ranch dressing, buffalo sauce, and cheese; stir in chicken.</li>
-								<li>Bake for about 20 minutes, or until mixture is heated through; stir.</li>
-								<li>Garnish as desired.</li>
+								<li>Place cream cheese into a deep baking dish; stir until smooth.</li>
+								<li>Stir in the remaining ingredients.</li>
+								<li>Bake for about 20 minutes, or until hot and bubbling.</li>
 								<li>Serve with crackers or vegetables.</li>
 							</ol>
 						</td>
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
-		</div>
-<br>
-<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-		<div>
-			<table class="recipe">
-				<tbody>
-					<tr>
-						<td colspan="1" rowspan="1">
-							<font class="rlink">** UNKOWN RECIPE **</font>
-							<div class="servings">
-								(Makes Up To 4 Servings)
-							</div>
-						</td>
-						</td>
-					</tr>
-					<tr>
-						<td style="width: auto;">
-							<ul class="none">
-								<li>1 Cup Chocolate Mix</li>
-								<li>1 Qt Cold Water/Milk <font class="optional">(Depending on Preference)</font></li>
-							</ul>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="1" rowspan="1">  
-							<ol class="some">
-								<li>Combine and mix chocolate mix and water or milk until dissolved.</li>
-								<li>Serve</li>
-							</ol>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -285,40 +261,34 @@
 				<tbody>
 					<tr>
 						<td colspan="2" rowspan="1">
-							<font class="rlink">** UNKOWN RECIPE **</font>
-							<div class="servings">
-								(Makes 4 Servings)
-							</div>
-						</td>
+							<font class="rlink">Chili Cheese Bean Dip</font>
 						</td>
 					</tr>
 					<tr>
 						<td style="width: auto;">
 							<ul class="none">
-								<li>1 Cup Powdered Milk</li>
-								<li>1 tsp Vanilla</li>
+								<li>1 Can Refried Beans</li>
+								<li>1 Cup Ketchup</li>
 							</ul>
-                        </td>
-						<td style="width: auto;">
+						</td>
+                        <td style="width: auto;">
 							<ul class="none">
-								<li>3 Cups Orange Juice (Canned or Fresh)</li>
-								<li><font class="frac">&frac12;</font> Cup Sugar</li>
-								<li>9 Ice Cubes</li>
+								<li>1 Cup Cheddar Cheese, Shredded</li>
+								<li>1 Can Green Chilies, Chopped</li>
 							</ul>
 						</td>
 					</tr>
 					<tr>
 						<td colspan="2" rowspan="1">  
 							<ol class="some">
-								<li>Blend all ingredients, except ice cubes.</li>
-								<li>Add 1 ice cube at a time, blending after each.</li>
-								<li>Serve cold.</li>
+								<li>Combine all ingredients into a small saucepan.</li>
+								<li>Heat, stirring, until cheese is melted.</li>
+                                <li>Serve warm</li>
 							</ol>
 						</td>
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -327,42 +297,79 @@
 				<tbody>
 					<tr>
 						<td colspan="2" rowspan="1">
-							<font class="rlink">** UNKOWN RECIPE **</font>
-							<div class="servings">
-								(Makes 6-8 Servings)
-							</div>
+							<font class="rlink">Deluxe Artichoke Dip</font>
 						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1 Cup Fresh Bread Crumbs, Torn</li>
+								<li>1 Cup Parmesan Cheese, Grated & Divided</li>
+                                <li>1 Cup Mayonnaise</li>
+								<li>1 can (14 oz.) Artichoke Hearts, Drained & Chopped</li>
+							</ul>
+                        </td>
+						<td style="width: auto;">
+							<ul class="none">
+								<li><font class="frac">&frac14;</font> Cup Fresh Parsley, Chopped</li>
+								<li>1 Container (8 oz.) Sour Cream</li>
+								<li>1 Jar (12 oz.) Marinated Artichoke Hearts, Drained & Chopped</li>
+                                <li>1 Clove Garlic, Finely Chopped</li>
+								<li>2 tbsp Olive Oil</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Preheat oven to 350&deg;.</li>
+								<li>Combine bread crumbs, <font class="frac">&frac14;</font> cup cheese and parsley in a small bowl; set aside.</li>
+								<li>Combine mayonnaise, sour cream, remaining <font class="frac">&frac34;</font> cup cheese, artichokes, and garlic in a medium bowl.</li>
+                                <li>Evenly spread artichoke mixture in a 9" pie plate; top with bread crumb mixture, then drizzle with olive oil.</li>
+                                <li>Bake uncovered for 35 minutes or until heated; serve with chips.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Spicy Peanut Dip</font>
 						</td>
 					</tr>
 				<tr>
 						<td style="width: auto;">
 							<ul class="none">
-								<li>1 Cup Sugar</li>
-								<li>1 Cup Water</li>
+								<li>1 Cup Smooth Peanut Butter</li>
+								<li>1 Bunch Scallions, Chopped</li>
+                                <li>1 Jalepe&ntilde;o, Chopped</li>
+								<li>2 Lg. Cloves of Garlic, Chopped</li>
 							</ul>
                         </td>
 						<td style="width: auto;">
 							<ul class="none">
-								<li>2 Cups Orange Juice</li>
-								<li>4 Cups Iced Water</li>
-								<li><font class="frac">&frac14;</font> Cup Lemon Juice</li>
+								<li>1 tbsp Soy Sauce</li>
+								<li>Juice & Zest From 2 Limes</li>
+								<li>1 tsp Turmeric</li>
 							</ul>
 						</td>
 				    </tr>
 					<tr>
 						<td colspan="2" rowspan="1">  
 							<ol class="some">
-								<li>Combine 1 Cup of water (non-iced)and sugar in saucepan.</li>
-								<li>Heat to boiling and boil for 3 minutes.</li>
-								<li>Let cool.</li>
-								<li>Add orange juice, lemon juice, and iced water.</li>
-								<li>Stir and serve.</li>
-							</ol>
+								<li>Combine all ingedients in a food processor; blend until smooth.</li>
+                            </ol>
+								<div align=center><font class="optional">If desired, add warm water to thin and adjust flavors to taste.</font></div>
 						</td>
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -371,42 +378,95 @@
 				<tbody>
 					<tr>
 						<td colspan="2" rowspan="1">
-							<font class="rlink">** UNKOWN RECIPE **</fpnt>
-							<div class="servings">
-								(Makes 6 Servings)
-							</div>
-						</td>
-						</td>
-					</tr>
-					<tr>
-						<td style="width: auto;">
-							<ul class="none">
-								<li>3 Cups Tomato Juice</li>
-								<li>3 tbsp Lemon Juice</li>
-							</ul>
-                        </td>
-						<td style="width: auto;">
-							<ul class="none">
-								<li>2 tsp Sugar</li>
-								<li>1 tsp Finely Grated Onion</li>
-								<li><font class="frac">&frac14;</font> tsp Celery Salt <font class="optional">(Optional)</font></li>
-							</ul>
+							<font class="rlink">Not Just Salsa</font>
 						</td>
 					</tr>
 					<tr>
 						<td colspan="2" rowspan="1">  
-							<ol class="some">
-								<li>Combine all ingredients.</li>
-								<li>Serve either hot or cold.</li>
-								<li>Float lemon slice on top to garnish. <font class="optional">(Optional)</font></li>
-							</ol>
+							<ul class="none">
+								<li>Simply add whole or refried beans and chunks of pepper jack cheese to salsa.</li><br>
+								<li>Cooked and crumbled sausage or chorizo is a nice addition as well.</li>
+							</ul>
 						</td>
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Pimento Cheese Kicker</font>
+						</td>
+					</tr>
+				<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1 Lb. Extra-Sharp Cheddar</li>
+								<li>1 Jar (7 oz.) Pimentos, Chopped</li>
+                                <li>1 tbsp Horseradish</li>
+							</ul>
+                        </td>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1 tsp Chili Powder</li>
+								<li><font class="frac">&frac12;-&frac23;</font> Cup Mayonnaise</li>
+								<li>Salt & Pepper, To Taste</li>
+							</ul>
+						</td>
+				    </tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Finely grate cheese and place into a Lg. bowl.</li>
+                                <li>Gently stir in the pimentos, horseradish, chili powder, mayonnaise, salt, and pepper.</li>
+                                <li>Stir until smooth, but <font class="optional">DO NOT</font> mash; mixture should have noticable bits of pimento.</li>
+                                <li>Refridgerate for at least 3 hours before serving.</li>
+                            </ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Cheese & Chili Dip</font>
+						</td>
+					</tr>
+				<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1 Box (16 Oz) Quick-Melting Cheese</li>
+							</ul>
+                        </td>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1 Can (15 Oz) Chili, No Beans</li>
+							</ul>
+						</td>
+				    </tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>In a microwave-safe bowl, combine cheese and chili.</li>
+                                <li>Microwave on HIGH for 5 minutes, stirring after 3 minutes.</li>
+                                <li>Serve hot with chips, French bread chunks, or cornbread.</li>
+                            </ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

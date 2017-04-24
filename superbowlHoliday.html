@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Super Bowl / Holiday</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
-	<a href="top"></a>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -161,51 +162,140 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<div style="padding:0 16px; color:white; font-size:18px;">
-	<a style="float: left;"href="snacks.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-	<h2><a style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; SUPERBOWL / HOLIDAY</h2>
-        <p>Make some classics for your Super Bowl or holiday party.</p>
-		</div>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>
+    <div>
+        <a href="snacks.html" title="Back to All Snacks"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <h2>Holiday Party / Super Bowl Party Snacks</h2>
+        <p class="story">Welcome to the holiday &amp; Super Bowl party section!<br><br>Please scroll down the page to see our great holiday &amp; Super Bowl snack ideas.</p>
+    </div>
+    <!-- THIS IS WHERE YOU WOULD PUT THE PICTURE FOR THE SECTION -->
+
+    <!--<p><sub><img class="pgPic" src="Pictures/alcoholicHomer.jpg" alt="Alcoholic Homer" title="Alcoholic Homer"></sub></p>-->
+</div>
+
+<!-- OR THIS MIGHT BE IN PLACE OF THE PICTURE ABOVE -->
+
+     <div class="holBanner">
+        <div style="width: 100%; text-align: center;">
+        <a href='superbowlHoliday.html#Val'><img src="Pictures/valPic.png" class="bannerIcons" alt="Valentine's Day" title="Valentine's Day"></a>
+        &nbsp;
+        <a href='superbowlHoliday.html#SP'><img src="Pictures/SPpic.png" class="bannerIcons" alt="St. Patrick's Day" title="St. Patrick's Day"></a>
+        &nbsp;
+        <a href='hsuperbowlHoliday.html#Easter'><img src="Pictures/easter.png" class="bannerIcons" alt="Easter" title="Easter"></a>
+        &nbsp;
+        <a href='superbowlHoliday.html#4th'><img src="Pictures/4thPic.png" class="bannerIcons" alt="4th of July" title="4th of July"></a>
+        &nbsp;
+        <a href='superbowlHoliday.html#Halloween'><img src="Pictures/halloween.png" class="bannerIcons" alt="Halloween" title="Halloween"></a>
+        &nbsp;
+        <a href='superbowlHoliday.html#Christmas'><img src="Pictures/christmas.png" class="bannerIcons" alt="Christmas" title="Christmas"></a>
+        &nbsp;
+        <a href='superbowlHoliday.html#SB'><img src="Pictures/Super_Bowl_logo.png" class="bannerIcons" alt="Super Bowl" title="Super Bowl"></a>
+        </div>
+    </div>
+<br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+    <div id="Val">
+        <font class="holResDiv" style="color: #f2082c;">VALENTINE'S DAY</font>
+    </div>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+    <div id="SP">
+        <font class="holResDiv" style="color: #08f708;">ST. PATRICK'S DAY</font>
+    </div>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+    <div id="Easter">
+        <font class="holResDiv" style="color: #85f1fa;">EASTER</font>
+    </div>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+    <div id="4th">
+        <font class="holResDiv" style="color: #4d4dea;">4<sup><small>TH</small></sup> OF JULY</font>
+    </div>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+    <div id="Halloween">
+        <font class="holResDiv" style="color: #fc6e06;">HALLOWEEN</font>
+    </div>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+    <div id="Christmas">
+        <font class="holResDiv" style="color: #b20000;">CHRISTMAS</font>
+    </div>
 		<div>
 			<table class="recipe">
 				<tbody>
 					<tr>
-						<td colspan="1" rowspan="1">
-							<font class="rlink">** UNKOWN RECIPE **</font>
-							<div class="servings">
-								(Makes 4 Servings)
-							</div>
-						</td>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Christmas Chocolate Peppermint Graham</font>
 						</td>
 					</tr>
 					<tr>
 						<td style="width: auto;">
 							<ul class="none">
-								<li>1 Cup Sugar</li>
-								<li>1 Cup Water</li>
-								<li>2 Cups Canned Grapefruit-Orange Juice</li>
+								<li>11 oz Milk Chocolate, Melted</li>
+								<li>11 oz White Chocolate, Melted</li>
+							</ul>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>4 Peppermint Candy Canes, Crushed</li>
+								<li>24 Graham Squares</li>
 							</ul>
 						</td>
 					</tr>
 					<tr>
-						<td colspan="1" rowspan="1">  
+						<td colspan="2" rowspan="1">  
 							<ol class="some">
-								<li>Combine sugar and water; boil 3 minutes.</li>
-								<li>Let cool.</li>
-								<li>Add grapefruit-orange juice</li>
-								<li>Pour over ice in glasses and serve.</li>
+								<li>Dip one end of the graham into milk chocolate, lay on parchment paper.</li>
+								<li>Repeat with all the grahams.</li>
+								<li>Allow to set in the fridge for about 15 minutes.</li>
+								<li>Dip the other end into the white chocolate; sprinkle with candy cane pieces immediately after.</li>
+								<li>Allow to set.</li>
 							</ol>
-							<div style="text-align:center;">
-								<font class="symbol">&#9658;</font>
-								<font class="big"> For different variations, use different fruit juices </font>
-								<font class="symbol">&#9668;</font>
-							</div>
 						</td>
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+    <div id="SB">
+        <font class="holResDiv" style="color: #FF007C;">Super Bowl Party!</font>
+    </div>
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Superbowl Party Pretzel & Popcorn Snack</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1 Lg. Bag Pretzels</li>
+								<li><font class="frac">&frac14;</font> Cup Popcorn Oil</li>
+							</ul>
+						</td>
+                        <td style="width: auto;">
+							<ul class="none">
+								<li><font class="frac">&frac18;</font> Cup White Cheddar Popcorn Seasoning</li>
+								<li><font class="frac">&frac14;</font> Cup Ranch Seasoning & Salad Dressing Mix</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Combine all ingredients together until well blended.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -214,59 +304,92 @@
 				<tbody>
 					<tr>
 						<td colspan="2" rowspan="1">
-							<font class="rlink">** UNKOWN RECIPE **</font>
-							<div class="servings">
-								(Makes 6-8 Servings)
-							</div>
-						</td>
+							<font class="rlink">Picante-Glazed Chicken Wings</font>
 						</td>
 					</tr>
 					<tr>
 						<td style="width: auto;">
 							<ul class="none">
-								<li>1 Cup Sugar</li>
-								<li>1 Cup Water</li>
-								<li>Rind of 2 Lemons, Cut Into Pieces</li>
-							</ul>
-						<td style="width: auto;">
-							<ul class="none">
-								<li>1 Cup Lemon Juice (5-6 Lemons)</li>
-								<li>4 Cups Ice Water</li>
+								<li>12 Chicken Wings (About 2 Lbs.)</li>
+								<li>1 Jar (16 Oz.) Pace&reg; Picante Sauce</li>
+                                <li><font class="frac">&frac13;</font> Cup Orange Marmalade</li>
 							</ul>
 						</td>
+                        <td style="width: auto;">
+							<ul class="none">
+								<li>2 tsp Dijon-Style Mustard</li>
+								<li>1 tbsp Sesame Seed, Toasted</li>
+							</ul>
 						</td>
 					</tr>
 					<tr>
 						<td colspan="2" rowspan="1">  
 							<ol class="some">
-								<li>Combine sugar, 1 Cup of non-iced water, and rinds in saucepan.</li>
-								<li>Stir over low heat until sugar is dissolved</li>
-								<li>Boil about 7 minutes.</li>
-								<li>Let cool completely.</li>
-								<li>Add lemon juice and iced water.</li>
-								<li>Remove rinds, stir lemonade.</li>
-								<li>Pour over ice in pither or tall glasses.</li>
+								<li>Preheat oven to 425&deg;.</li>
+                                <li>Line rimmed baking sheet with aluminum foil.</li>
+                                <li>Cut off the chicken wing tips and discard.</li>
+                                <li>Cut the chicken wings in <font class="frac">&frac12;</font> at the joint.</li>
+                                <li>Heat 1<font class="frac">&frac12;</font> cups picante sauce, marmalade, and mustard in a 2 qt. saucepan over medium heat; bring to a boil.</li>
+                                <li>Reduce heat to medium-low.</li>
+                                <li>Cook for 40 minutes or until the mixture is reduced to <font class="frac">&frac34;</font>, stirring ocasionally.</li>
+                                <li>Place the chicken into a Lg. bowl; add the remaining picante sauce and toss to coat.</li>
+                                <li>Place the chicken onto the baking sheet.</li>
+                                <li>Bake for 40 minutes or util the chicken is cooked through, turning the chicken over once halfway through the bake time.</li>
+                                <li>Batse the chicken with the picante-mustard mixture during the last 10 minutes of the bake time.</li>
+                                <li>Sprinkle with the sesame seed.</li>
 							</ol>
-							<div style="text-align: center;">
-								<font class="optional">Variations:</font>
-							</div>
-							<ul>
-								<li><font class="various">Quick Lemonade:</font><br>
-								Squeeze lemons, add sugar, water, and ice to taste</li><br>
-								<li><font class="various">Minted Lemonade:</font><br>
-								Place bruised mint leaves in bottom of glasses before adding lemonade. Garnish each glass with a sprig of mint.</li><br>
-								<li><font class="various">Berry Lemonade:</font><br>
-								To each glass of lemonade add 2 tbsp of crushed berries (fresh or canned). Berries can be raspberries, strawberries, blackberries, or blueberries. Garnish with whole berries and serve over ice.</li><br>
-								<li><font class="various">Grape Lemonade:</font><br>
-								Combine equal portions of grape juice and lemonade.</li>
-							</ul>
 						</td>
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Game Day Chili</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1 Slow Cooker Liner</li>
+								<li>1 Lb. Ground Beef</li>
+                                <li>1 Medium Green Bell Pepper, Chopped</li>
+                                <li>1 Small Onion, Chopped</li>
+                                <li>2 Cans (15 Oz. ea) Red Kidney Beans, Undrained</li>
+							</ul>
+						</td>
+                        <td style="width: auto;">
+							<ul class="none">
+								<li>2 Pkgs Chili Seasoning</li>
+								<li>1 Can (15 Oz.) Tomato Sauce</li>
+                                <li>1 Can (10 Oz.) Tomatoes, Diced</li>
+                                <li>1 Can Green Chilies</li>
+                                <li>Cheese & Sour Cream <font class="optional">(For Garnishment)</font></li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Place the slow cooker liner snugly in the slow cooker bowl and stretch top of the liner over the rim of the bowl.</li>
+                                <li>Brown the ground beef, bell pepper, and onion over medium-high heat in a Lg skillet; drain well.</li>
+                                <li>Add beef mixture into the slow cooker liner.</li>
+                                <li>In a Lg bowl, combine the remaining ingredients, then add to the beef; stirring gently after.</li>
+                                <li>Place lid on the slow cooker and cook on <big><b>LOW</b></big> for 6-7 hours <big><b>OR</b></big> on <big><b>HIGH</b></big> for 3-3<font class="frac">&frac12;</font> hours or until heated through.</li>
+                                <li>Serve directly from the slow cooker.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

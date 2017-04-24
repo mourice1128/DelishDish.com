@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Brownies</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
-	<a href="top"></a>		
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>		
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -161,15 +162,27 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-		<div style="padding:0 16px; color:white; font-size:18px;">
-		<a style="float: left;"href="dessert.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-			<h2><a style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; BROWNIES</h2>
-			<p>Select one of the following links for the specific type of brownie you would like.</p>
-		</div>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>    
+    <div>
+	<a href="dessert.html" title="Back to All Desserts"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <h2>Brownies</h2>
+        <p class="story">Welcome to the brownie section!<br><br>Scroll down to see the delicious brownie recipes that we have.</p>
+    </div>
+    <!--<p><sub><img class="pgPic" src="Pictures/alcoholicHomer.jpg" alt="Alcoholic Homer" title="Alcoholic Homer"></sub></p>-->
+</div>
 			<ul>
 				<li><a class="splashPageLinks" href="regBrownies.html">Regular Brownies</a></li><br>
 				<li><a class="splashPageLinks" href="holidayBrownies.html">Holiday Brownies</a></li><br>
 			</ul>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Just 4 Fun! Cakes</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
-		<a href="top"></a>		
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>		
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -161,13 +162,27 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<div style="padding:0 16px; color:white; font-size:18px;">
-	<a style="float: left;"href="cakes.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-	<h2><a style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; JUST 4 FUN! CAKES</h2>
-        <p>These will give you an idea for fun cakes to make and eat    <sub><img src="Pictures/lol.png" width=50 height=50></sub></p>
-		</div>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>
+    <div>
+        <a href="cakes.html" title="Back to All Cakes"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <h2>Just 4 Fun! Cakes</h2>
+        <p class="story">Welcome to the fun-to-make, fun-to-eat cake section!<br><br>Please scroll down the page to see some of the delicious cake ideas that are just much fun to make as they are to eat.</p>
+    </div>
+    <!-- THIS IS WHERE YOU WOULD PUT THE PICTURE FOR THE SECTION -->
+<div class="pgPic3">
+    <p><sub><img class="pgPic3" src="Pictures/lol.png" alt="lol" title="LOL"></sub></p>
+    </div>
+</div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-		<div>
+		<div id="pineappleCupcakes">
 			<table class="recipe">
 				<tbody>
 					<tr>
@@ -213,7 +228,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -262,7 +276,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -321,9 +334,9 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

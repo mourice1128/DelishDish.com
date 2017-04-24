@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Sides</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
-	<a href="top"></a>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -161,11 +162,24 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<div style="padding:0 16px; color:white; font-size:18px;">
-	<a style="float: left;"href="snacks.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-	<h2 style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; SIDES</h2>
-        <p>Have a side dish to go with your favorite meal.</p>
-		</div>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>
+    <div>
+        <a href="snacks.html" title="Back to All Snacks"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <h2>Sideas (Side Item Ideas)</h2>
+        <p class="story">Welcome to the sidea section!<br><br>Please scroll down the page to get a sidea about what side to have with your meal.</p>
+    </div>
+    <!-- THIS IS WHERE YOU WOULD PUT THE PICTURE FOR THE SECTION -->
+
+    <!--<p><sub><img class="pgPic" src="Pictures/alcoholicHomer.jpg" alt="Alcoholic Homer" title="Alcoholic Homer"></sub></p>-->
+</div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
 		<div>
 			<table class="recipe">
@@ -173,7 +187,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Spinach & Artichoke Stuffed Shells</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -210,7 +223,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -223,7 +235,6 @@
 							<div class="servings">
 								(Children's Recipe)
 							</div>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -258,7 +269,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -268,7 +278,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Sassy Chicken Salad</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -300,7 +309,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -310,7 +318,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Ultimate Nachos</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -342,7 +349,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -389,7 +395,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -431,7 +436,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -486,9 +490,55 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Puffy Potatoes</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>4 Slices Bacon, Crumbled</li>
+								<li>5 Baking Potatoes</li>
+                                <li><font class="frac">&frac13;</font> Cup Milk</li>
+							</ul>
+                        </td>
+						<td style="width: auto;">
+							<ul class="none">
+								<li><font class="frac">&frac34;</font> Cup Ranch Dressing & Seasoning Mix, Prepared</li>
+								<li>3 tbsp Parsley, Chopped</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+                                <li>Preheat oven to 400&deg;.</li>
+								<li>In a skillet, cook bacon until crispy; drain on paper towels.</li>
+								<li>Crumble bacon; set aside.</li>
+								<li>Pierce potatoes with a fork; bake until tender (about 45 minutes).</li>
+                                <li>Cut potatoes lengthwise, then crosswise in the top of each potato.</li>
+                                <li>Scoop out the center of each potato and combine centers into a lg. bowl; reserving the potato skins.</li>
+                                <li>Mash the potatoes.</li>
+                                <li>Add milk and dressing; beat until smooth.</li>
+                                <li>Stir in bacon and 2 tsp of the parsley.</li>
+                                <li>Fill Skins with potato mixture.</li>
+                                <li>Bake until puffy and golden (about 15 minutes).</li>
+                                <li>Sprinkle with the remaining 1 tbsp of parsley.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

@@ -4,12 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Meals</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -21,18 +23,18 @@
 					</ul>
 				</li>
 		</li>
-						<li><a href="lunch.html">Lunch</a><span class="dropRight"></span>
+				<li><a href="lunch.html">Lunch</a><span class="dropRight"></span>
 					<ul>
 						<li><a href="lunchHoliday.html">Holiday</a></li>
 				</li>
 					</ul>
-						<li><a href="dinner.html">Dinner</a><span class="dropRight"></span>
+				<li><a href="dinner.html">Dinner</a><span class="dropRight"></span>
 					<ul>
 						<li><a href="dinnerHoliday.html">Holiday</a></li>
 				</li>
 					</ul>
 			</ul>
-		</li>
+                </li>
 						<li><a href="drinks.html">Beverages</a><span class="dropBottom"></span>
 							<ul>
 								<li><a href="coldBevs.html">Cold</a></li>
@@ -148,37 +150,51 @@
 	<select class="navSelect" onchange="location = this.options[this.selectedIndex].value;">
 	<option value="" selected="selected">Select</option>
 	<option value="index.html">Home</option>
-	<option value="meals.html">Meals</Option>
+	<option value="meals.html">Meals</option>
 	<option value="drinks.html">Beverages</option>
 	<option value="snacks.html">Snacks</option>
-	<option value="dessert.html">Dessert</Option>
+	<option value="dessert.html">Dessert</option>
 	<option value="misc.html">Misc.</option>
 	<option value="cook4Two.html">Cook 4 Two</option>
-	<option value="colaCollection.html">Cola</Option>
+	<option value="colaCollection.html">Cola</option>
 	<option value="contactUs.html">Contact us</option>
     <option value="conChart.html">Conversion Chart</option>
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<div style="padding:0 16px; color:white; font-size:18px;">
-    <a style="float: left;"href="index.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-    <h2 style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; MEALS</h2>
-    <p>Select one of the following links for the specific type of meal you would like.</p>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>
+    <div>
+        <a href="index.html" title="Back to Home"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <h2>Meals</h2>
+        <p class="story">Welcome to the meal section!<br><br>Please select one of the links to go to the section of the type of meal you are looking for.</p>
+    </div>
+    <!-- THIS IS WHERE YOU WOULD PUT THE PICTURE FOR THE SECTION -->
+
+    <!--<p><sub><img class="pgPic" src="Pictures/alcoholicHomer.jpg" alt="Alcoholic Homer" title="Alcoholic Homer"></sub></p>-->
 </div>
-    <ul>
+    <ul class="splashBullets">
         <li><a class="splashPageLinks" href="breakfast.html">Breakfast</a></li><br>
-            <ul>
-                <li><a class="splashPageLinks" href="breakHoliday.html">Holiday Breakfasts</a></li><br><br><br>
+            <ul class="splashBullets">
+                <li><a class="splashPageLinks" href="breakHoliday.html">Holiday Breakfasts</a></li><br>
             </ul>
         <li><a  class="splashPageLinks" href="lunch.html">Lunch</a></li><br>
-            <ul>
-                <li><a class="splashPageLinks" href="lunchHoliday.html">Holiday Lunches</a></li><br><b><br><br>
+            <ul class="splashBullets">
+                <li><a class="splashPageLinks" href="lunchHoliday.html">Holiday Lunches</a></li><br>
             </ul>
         <li><a  class="splashPageLinks" href="dinner.html">Dinner</a></li><br>
-            <ul>
+            <ul class="splashBullets">
                 <li><a class="splashPageLinks" href="dinnerHoliday.html">Holiday Dinners</a></li>
             </ul>
     </ul>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+        <script src="scrollFunc.js"></script>
 	</body>
 </html>

@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Conversion Chart</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
-		<a href="top"></a>		
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>		
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -161,15 +162,37 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<div style="padding:0 16px; color:white; font-size:18px; width:50%;">
-		<a style="float: left;"href="index.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-			<h2 style="color: white; font sixe: 18px;">&nbsp;&nbsp; MEASUREMENTS &amp; CONVERSIONS</h2>
-			<p>The information below shows measuring equivalents for teaspoons, tablespoons, cups, pints, fluid ounces, and more. This page also includes the conversions for metric and U.S. systems of measurement.</p>
-                <p> Click <a style="color: yellow;" href="http://www.convert-me.com/en/convert/cooking/" target="_blank">here</a> to be redirected to a conversion calculator</p>
-		</div>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>
+    <div>
+        <a href="index.html" title="Back to Home"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <h2>Measurements, Conversions, &amp; Overn Bag Cooking Instuctions</h2>
+        <p class="story">Welcome to the conversion chart page!<br><br>Please click on the section below that you need the information for.</p>
+    <!-- THIS IS WHERE YOU WOULD PUT THE PICTURE FOR THE SECTION -->
+
+    <!--<p><sub><img class="pgPic" src="Pictures/alcoholicHomer.jpg" alt="Alcoholic Homer" title="Alcoholic Homer"></sub></p>-->
+</div>
+        <ul>
+            <li><a style="color: yellow;" href="#MCC">Measurment Conversion Chart</a></li>
+            <li><a style="color: yellow;" href="#OTC">Oven Temp Conversion Chart</a></li>
+            <li><a style="color: yellow;" href="#RCC">Ratio Conversion Chart</a></li>
+            <li><a style="color: yellow;" href="#PanDishCC">Pan & Dish Measurement Conversion Chart</a></li>
+            <li><a style="color: yellow;" href="#OBCI">Oven Bag Cooking Instructions (Turkey)</a></li>
+            <li><a style="color: yellow;" href="#OBCI2">Oven Bag Cooking Intsructions (Beef)</a></li>
+            <li><a style="color: yellow;" href="#OBCI3">Oven Bag Cooking Intsructions (Pork)</a></li>
+        </ul>
+    <p> Click <a style="color: yellow;" href="http://www.convert-me.com/en/convert/cooking/" target="_blank">here</a> to be redirected to a conversion calculator</p>
+</div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<div class="resDiv">Measurements Coversion Chart</div>
     <table class="chart" style="text-align:center;">
+        <caption class="resDiv" id="MCC">Measurements Coversion Chart</caption>
         <tbody>
             <tr>
                 <th colspan="2">U.S. Dry Volume Measurements</th>
@@ -376,11 +399,10 @@
             </tr>
         </tbody>
     </table>
-<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 <br>
 <br>
-<div class="resDiv">Oven Temperature Conversions</div>
     <table class="chart" style="text-align:center;">
+        <caption class="resDiv" id="OTC">Oven Temperature Conversions</caption>
         <tbody>
             <tr>
                 <th>Farenheit</th>
@@ -433,11 +455,10 @@
             </tr>
         </tbody>
     </table>
-<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 <br>
 <br>
-<div class="resDiv">Ratios for selected foods</div>
     <table class="chart" style="text-align:center;">
+        <caption class="resDiv" id="RCC">Ratios for selected foods</caption>
         <tbody>
             <tr>
                 <th>Measure</th>
@@ -518,11 +539,10 @@
             </tr>
         </tbody>
     </table>
-<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 <br>
 <br>
-<div class="resDiv">Measures for Pans and Dishes</div>
     <table class="chart" style="text-align:center;">
+        <caption class="resDiv" id="PanDishCC">Measures for Pans and Dishes</caption>
         <tbody>
             <tr>
                 <th>Inches</th>
@@ -550,8 +570,200 @@
             </tr>
         </tbody>
     </table>
-<br>
-<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<br>
+<br>
+    <table class="chart" style="text-align:center;">
+        <caption class="resDiv" id="OBCI">Oven Bag Cooking Instructions<br><br>
+            <small>Preheat oven to 350&deg;F. Add flour to bag and shake. Brush turkey with vegetable oil or butter and season as desired. Close the bag and cut six <font class="frac">&frac12;</font>" slits in the top of the bag. Bake according to the following chart. <font class="optional">DO NOT USE</font> the turkey-size bags for foods smaller than 8 Lbs.</small></caption>
+        <tbody>
+            <tr>
+                <th align=left><font size="40">Turkey</font></th>
+                <th>Total<br>Weight</th>
+                <th>Time</th>
+                <th>Add<br>Flour</th>
+                <th>Add<br>Water</th>
+                <th>Internal<br>Temp.</th>
+            </tr>
+            <tr>
+                <td>Whole Turkey,<br><small>Unstuffed</small></td>
+                <td>12-16 Lb.<br>
+                16-20 Lb.<br>
+                20-24 Lb.</td>
+                <td>2-2<font class="frac">&frac12;</font> Hrs.<br>
+                2<font class="frac">&frac12;</font>-3 Hrs.<br>
+                3-3<font class="frac">&frac12;</font> Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td>None</td>
+                <td>180&deg;F</td>
+            </tr>
+            <tr>
+                <td>Whole Turkey,<br><small>Stuffed</small></td>
+                <td>12-16 Lb.<br>
+                16-20 Lb.<br>
+                20-24 Lb.</td>
+                <td>2<font class="frac">&frac12;</font>-3 Hrs.<br>
+                3-3<font class="frac">&frac12;</font> Hrs.<br>
+                2<font class="frac">&frac12;</font>-4 Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td>None</td>
+                <td>180&deg;F</td>
+            </tr>
+            <tr>
+                <td>Turkey Breast,<br><small>Bone-In</small></td>
+                <td>10-12 Lb.</td>
+                <td>2<font class="frac">&frac14;</font>-2<font class="frac">&frac34;</font> Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td>None</td>
+                <td>170&deg;F</td>
+            </tr>
+            <tr>
+                <td>Turkey Breast,<br><small>Boneless</small></td>
+                <td>8-12 Lb.</td>
+                <td>3-3<font class="frac">&frac12;</font> Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td>None</td>
+                <td>170&deg;F</td>
+            </tr>
+            <tr>
+                <td>Wild Turkey</td>
+                <td colspan=5>Same as whole turkey above, but if skinless, add <font class="frac">&frac14;</font> cup of water and brush with extra oil or butter.</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+<br>
+<table class="chart" style="text-align:center;">
+    <caption class="resDiv" id="OBCI2"><small>Preheat oven to 325&deg;F. Add flour to bag and shake. Season as desired or with 1 tsp thyme and <font class="frac">&frac12;</font> tsp pepper. Close the bag and cut six <font class="frac">&frac12;</font>" slits in the top of the bag. Bake according to the following chart. <font class="optional">DO NOT USE</font> the turkey-size bags for foods smaller than 8 Lbs., unless otherwise noted.</small></caption>
+    <tbody>
+            <tr>
+                <th align=left><font size="40">Beef</font></th>
+                <th>Total<br>Weight</th>
+                <th>Time</th>
+                <th>Add<br>Flour</th>
+                <th>Add<br>Water</th>
+                <th>Internal<br>Temp.</th>
+            </tr>
+            <tr>
+                <td>Beef Rib Roast,<br><small>Small End, 4 Ribs</small></td>
+                <td>8-10 Lb.</td>
+                <td>2<font class="frac">&frac12;</font>-2<font class="frac">&frac34;</font> Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td>None</td>
+                <td>145&deg;F</td>
+            </tr>
+            <tr>
+                <td>Brisket,<br><small>Boneless, Whole</small></td>
+                <td>8-10 Lb.</td>
+                <td>3-3<font class="frac">&frac14;</font> Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td><font class="frac">&frac12;</font> Cup</td>
+                <td>Fork Tender</td>
+            </tr>
+            <tr>
+                <th align=left><font size="40">Lamb</font></th>
+                <td colspan=5><font size="40">&nbsp;</font></td>
+            </tr>
+            <tr>
+                <td>Leg,<br><small>Bone-In</small></td>
+                <td>8-10 Lb.</td>
+                <td>2-2<font class="frac">&frac12;</font> Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td>None</td>
+                <td>150&deg;F</td>
+            </tr>
+            <tr>
+                <td>Leg,<br><small>Boneless</small></td>
+                <td>7-8 Lb.</td>
+                <td>1<font class="frac">&frac34;</font>-2<font class="frac">&frac14;</font> Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td>None</td>
+                <td>150&deg;F</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+<br>
+<table class="chart" style="text-align:center;">
+    <caption class="resDiv" id="OBCI3"><small>Preheat oven to 325&deg;F. Add flour to bag and shake. Season as desired. No seasoning is required for smoked pork. Close the bag and cut six <font class="frac">&frac12;</font>" slits in the top of the bag. Bake according to the following chart. <font class="optional">DO NOT USE</font> the turkey-size bags for foods smaller than 8 Lbs., unless otherwise noted.</small></caption>
+    <tbody>
+            <tr>
+                <th align=left><font size="40">Pork</font></th>
+                <th>Total<br>Weight</th>
+                <th>Time</th>
+                <th>Add<br>Flour</th>
+                <th>Add<br>Water</th>
+                <th>Internal<br>Temp.</th>
+            </tr>
+            <tr>
+                <td>Fresh Ham (Pork Leg),<br><small>Boneless</small></td>
+                <td>12-14 Lb.</td>
+                <td>3<font class="frac">&frac12;</font>-4 Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td><font class="frac">&frac12;</font> Cup</td>
+                <td>160&deg;F</td>
+            </tr>
+            <tr>
+                <td>Top Loin Roast,<br><small>Boneless, Tied</small></td>
+                <td>10 Lb.</td>
+                <td>2-<font class="frac">&frac14;</font> Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td><font class="frac">&frac12;</font> Cup</td>
+                <td>160&deg;F</td>
+            </tr>
+            <tr>
+                <td>Fully Cooked Ham,<br><small>Bone-In, Whole</small></td>
+                <td>12-16 Lb.</td>
+                <td>2<font class="frac">&frac12;</font>-3<font class="frac">&frac14;</font> Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td>None</td>
+                <td>140&deg;F</td>
+            </tr>
+            <tr>
+                <td>Fully Cooked Ham,<br><small>Bone-In, Half</small></td>
+                <td>8-10 Lb.</td>
+                <td>2-2<font class="frac">&frac12;</font> Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td>None</td>
+                <td>140&deg;F</td>
+            </tr>
+            <tr>
+                <td>Fully Cooked Ham,<br><small>Boneless, Half</small></td>
+                <td>10-12 Lb.</td>
+                <td>2<font class="frac">&frac14;</font>-2<font class="frac">&frac34;</font> Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td><font class="frac">&frac12;</font> Cup</td>
+                <td>140&deg;F</td>
+            </tr>
+            <tr>
+                <td>Spiral-Sliced Ham -<br><small>Place Cut Side Down</small></td>
+                <td>8-10 Lb.</td>
+                <td>1<font class="frac">&frac12;</font>-1<font class="frac">&frac34;</font> Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td>None</td>
+                <td>140&deg;F</td>
+            </tr>
+            <tr>
+                <td>Country Ham,<br><small>Bone-In, Whole</small></td>
+                <td>10-14 Lb.</td>
+                <td>3<font class="frac">&frac12;</font>-4<font class="frac">&frac12;</font> Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</td>
+                <td>160&deg;F</td>
+            </tr>
+            <tr>
+                <td>Country Ham,<br><small>Bone-In, Half</small></td>
+                <td>5-7 Lb.</td>
+                <td>2<font class="frac">&frac12;</font>-3 Hrs.</td>
+                <td>1 Tbsp.</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</td>
+                <td>160&deg;F</td>
+            </tr>
+            <tr>
+                <td colspan="6">*<font class="optional"><b>Addtl' Instructions For Country Ham:</font></b><br><br>Soak completely covered in water for 24 Hrs. prior to cooking; drain.<br>Add 4 cups of fresh water to the oven bag for whole and 2 cups of fresh water for half.</td>
+            </tr>
+        </tbody>
+    </table>
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

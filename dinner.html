@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Dinners</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
-		<a href="top"></a>	
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>	
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -22,7 +23,7 @@
 					</ul>
 				</li>
 		</li>
-						<li><a href="lunch.html">Lunch</a><span class="dropRight"></span>
+				<li><a href="lunch.html">Lunch</a><span class="dropRight"></span>
 					<ul>
 						<li><a href="lunchHoliday.html">Holiday</a></li>
 				</li>
@@ -33,7 +34,7 @@
 				</li>
 					</ul>
 			</ul>
-		</li>
+		                </li>
 						<li><a href="drinks.html">Beverages</a><span class="dropBottom"></span>
 							<ul>
 								<li><a href="coldBevs.html">Cold</a></li>
@@ -161,11 +162,23 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<div style="padding:0 16px; color:white; font-size:18px;">
-		<a style="float: left;"href="dinnerLand.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-			<h2><a style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp;  <img src="Pictures/dinner.png" width="300" height="75"></h2>
-                <p>Scroll down the list to find the recipe you would like to make.</p>
-		</div>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>
+    <div>
+        <a href="dinnerLand.html" title="Back to All Dinners"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+            <!-- THIS IS WHERE YOU WOULD PUT THE PICTURE FOR THE SECTION -->
+        <p><sub><img class="pgPic" src="Pictures/dinner.png" alt="Dinner" title="Dinner"></sub></p>
+        <!--<h2>Dinner</h2>-->
+        <p class="story">Welcome to the dinner section!<br><br>Please scroll down the page to see the delicious dinner menu ideas.</p>
+    </div>
+</div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
 		<div>
 			<table class="recipe">
@@ -173,7 +186,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Pepperoni Spaghetti Bake</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -207,7 +219,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -217,7 +228,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Cheeseburger-Roni</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -253,7 +263,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -263,7 +272,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Ravioli Lasagna</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -299,7 +307,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -309,7 +316,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Taco-Roni</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -341,7 +347,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -351,7 +356,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Chili-Roni</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -382,7 +386,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -393,13 +396,12 @@
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Taco Joes</font>
 						</td>
-						</td>
 					</tr>
 					<tr>
 						<td style="width: auto;">
 							<ul class="none">
 							    <li>1 Lb. Ground Beef</li>
-								<li>1 Can (15.5 oz.) Manwich<sup>&reg;</sup> Sloppy Joe Mix</font></li>
+								<li>1 Can (15.5 oz.) Manwich<sup>&reg;</sup> Sloppy Joe Mix</li>
 								<li><font class="frac">&frac12;</font> tsp Ground Cumin</li>
                                 <li>2 Cups Shredded Lettuce</li>
 							</ul>
@@ -426,7 +428,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -436,7 +437,6 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Easy Manicotti</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -477,9 +477,462 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Fettuccini Alfredo</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+							    <li>4 Cups Fettuccini Noodles</li>
+								<li><font class="frac">&frac14;</font> Cup Whipping Cream</li>
+								<li><font class="frac">&frac34;</font> Cup Parmesan Cheese, Freshly Grated</li>
+							</ul>
+                        </td>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>White Pepper</li>
+								<li>1 Egg Yolk, Beaten</li>
+								<li><font class="frac">&frac12;</font> Lb. Soft Butter</li>
+                            </ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Cook Fettuccini in 4 qts. of water and 1 tsp of salt for about 14-18 minutes, then drain.</li>
+								<li>In same pan add the butter and toss with the fettuccini noodles.</li>
+								<li>Combine cream and egg yolk together.</li>
+                                <li>Alternate with <font class="frac">&frac13;</font> cream and <font class="frac">&frac13;</font> cheese.</li>
+								<li>Toss well, but gently after each addition.</li>
+								<li>Add pepper to taste and serve.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Cheesy Potato Casserole</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+							    <li>2 Lbs. Hashbrowns</li>
+								<li><font class="frac">&frac12;</font> Cup Bacon Bits</li>
+								<li>2 tbsp Onion, Dried & Minced</li>
+                                <li>1 Cube Butter</li>
+								<li>1 Pt. Sour Cream</li>
+								<li>2 Cups Crushed Corn Flakes</li>
+							</ul>
+                        </td>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>2 Cups Cheese, Grated</li>
+								<li>1 tsp Salt</li>
+								<li>Dash of Parsley</li>
+                                <li>1 Can Cream Of Chicken Soup</li>
+								<li><font class="frac">&frac12;</font> Cup Milk</li>
+								<li><font class="frac">&frac12;</font> Cube Margarine</li>
+                            </ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+                                <li>Preheat oven to 350&deg;.</li>
+								<li>Mix hashbrowns, bacon bits, cheese, salt, pepper, and minced onion; place into a buttered 9x13" dish.</li>
+								<li>Mix butter, soup sour cream, and milk;Pour over the hadbrown mix.</li>
+								<li>Top with corn flakes.</li>
+                                <li>Bake for 1 hour.</li>
+                                <div align=center>
+                                    <font class="optional">Leftovers may be froven for future use</font>.
+                                </div>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Double Quick Dinner Rolls</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+							    <li>2<font class="frac">&frac14;</font> tsp Active Dry Yeast</li>
+								<li>1 Cup Warm Water (110&deg; F)</li>
+								<li><font class="frac">&frac14;</font> Cup Dry Potato Flakes</li>
+                                <li>2 tbsp Sugar</li>
+								<li>1 tsp Salt</li>
+							</ul>
+                        </td>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1 Egg</li>
+								<li>2 tbsp Vegetable Oil</li>
+								<li><font class="frac">&frac34;</font> tsp Onion Powder</li>
+                                <li>2<font class="frac">&frac14;</font> Cups Flour</li>
+                            </ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+                                <li>In a Lg. bowl, dissolve yeast in warm water.</li>
+								<li>Add potato flakes sugar, salt, egg, vegetable oil, onion powder, and 1 cup of the flour; beat until smooth.</li>
+								<li>Stir in remaining flour; Continue stirring until smooth, scraping batter from the side of the bowl.</li>
+								<li>Cover and let the dough rise in warm place until doubled in size. (About 20-30 minutes)</li>
+                                <li>Preheat over to 400&deg;.</li>
+                                <li>Lightly grease 12 muffin cups; punch out dough.</li>
+                                <li>Spoon dough into 12 greased mufin cups, filling each one about <font class="frac">&frac12;</font> full.</li>
+                                <li>Let rise until batter reaches tops of the cups. (About 20 minutes)</li>
+                                <li>Bake for 15 minutes and serve immediately.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Cheesy Bean & Rice Csserole</font>
+                            <div class="servings">
+								Children's Recipe
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>3 Cups Brown Rice, Cooked</li>
+								<li>1 Can (16 Oz.) Kidney or Pinto Beans, Drained</li>
+                                <li>1 Lg. Onion, Chopped</li>
+							</ul>
+						</td>
+                        <td style="width: auto;">
+							<ul class="none">
+								<li>1 Clove Garlic, Minced</li>
+								<li>1 Cup Cottage Cheese</li>
+                                <li>1 tbsp flour</li>
+								<li>3 Oz. Cheddar Cheese, Grated</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Preheat oven to 350&deg;.</li>
+                                <li>In a Lg. mixing bowl, combine the rice, beans, onion, garlic, cottage cheese, and flour.</li>
+                                <li>Pour the mixture into a casserole dish; top with the grated cheese.</li>
+                                <li>Bake covered for 30 minutes and then un-covered for an additional 5-10 minutes until the cheese is golden brown.</li>
+                            </ol>
+                            <div align=center><font class="optional">For spicier flavor, stir in 2-4 tbsp of chopped green chili peppers before baking.</font></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">3x Mac & Cheese</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>2 Cups Elbow-Style Macaroni Noodles - Un-cooked</li>
+								<li>12 oz. Quick-Melting Cheese, Cubed</li>
+                                <li><font class="frac">&frac13;</font> Cup Milk</li>
+							</ul>
+						</td>
+                        <td style="width: auto;">
+							<ul class="none">
+								<li><font class="frac">&frac23;</font> Cup Fiesta-Style Shredded Cheese</li>
+								<li><font class="frac">&frac12;</font> Cup Bread Crumbs</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Preheat oven to 350&deg;.</li>
+                                <li>In a pan with boiling water, cook the macaroni according to the package.</li>
+                                <li>Drain macaroni, then return to the pan.</li>
+                                <li>Add the quick-meltig cheese and the milk; stirring on low heat until the cheese is melted.</li>
+                                <li>Spread the mac & cheese mixture in a casserole dish and sprinkle with the shredded cheese.</li>
+                                <li>Top with bread crumbs; bake for 10 minutes or until golden brown.</li>
+                            </ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Backstage Burgers</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1 Lb. Ground Beef</li>
+								<li>1 pkg. (1 Oz.) Ranch Seasoning</li>
+                                <li>2 tbsp Water</li>
+							</ul>
+						</td>
+                        <td style="width: auto;">
+							<ul class="none">
+								<li>2 Onions</li>
+								<li>6 Kaiser Rolls</li>
+                                <li><font class="frac">&frac12;</font> Cup BBQ Sauce</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Light grill and heat until coals are red or gas grill is to temp.</li>
+                                <li>Meanwhile, combine the beef, ranch seasoning, water in a lg. bowl.</li>
+                                <li>Form the ixture into 6 patties.</li>
+                                <li>Slice the onions into <font class="frac">&frac12;</font>" Slices.</li>
+                                <li>Place the burgers and the onions onto the grill.</li>
+                                <li>Grill for about 4 minutes, or until the meat is firm around the outside and the juices begin to pool.</li>
+                                <li>Flip burgers and onions; continue grilling for 3 minutes, or until done to your preference.<br><font class="optional">(The internal temp should reach at least 160&deg;)</font></li>
+                                <li>Spread BBQ sauce onto Kaiser rolls; place burgers and onions and any other desired toppings onto Kaiser rolls and enjoy.</li>
+                            </ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Skillet Cheesy Chicken & Rice</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1 tbsp Vegetable Oil</li>
+								<li>1<font class="frac">&frac14;</font> Lb. Skinless, Boneless Chicken Breast Halves</li>
+                                <li>1 Can (10<font class="frac">&frac34;</font> Oz.) Condensed Cream of Chicken Soup</li>
+                                <li>1<font class="frac">&frac12;</font> Cup water</li>
+							</ul>
+						</td>
+                        <td style="width: auto;">
+							<ul class="none">
+								<li><font class="frac">&frac12;</font> tsp. Onion Powder</li>
+								<li><font class="frac">&frac14;</font> tsp. Ground Black Pepper</li>
+                                <li>1 Cup White Rice, Uncooked</li>
+                                <li>2 Cups Mixed Vegetables, Frozen</li>
+                                <li><font class="frac">&frac12;</font> Cup Cheddar Cheese, Shredded</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Heat oil in 12" skillet over medium-high heat.</li>
+                                <li>Add chicken and cook for 10 minutes, or until well browned on both sides; remove chicken from skillet.</li>
+                                <li>Stir soup, water, onion powder, black pepper, and rice in skillet and heat to a boil; reduce heat to low.</li>
+                                <li>Cover and cook for 15 minutes, stirring once about halway through.</li>
+                                <li>Stir in the veggetables and return the chicken to the skillet; sprinkle with cheese.</li>
+                                <li>Cover and cook for about 5 minutes, or until chicken is cooked through and rice is tender.</li>
+                            </ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Orange Teriyaki Beef Roast</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1 Oven Bag, Large Size</li>
+								<li>2 tbsp Flour</li>
+                                <li><font class="frac">&frac12;</font> Cup Orange Juice</li>
+                                <li><font class="frac">&frac12;</font> Cup Teryiaki Sauce</li>
+                                <li><font class="frac">&frac14;</font> Cup Brown Sugar, Packed</li>
+							</ul>
+						</td>
+                        <td style="width: auto;">
+							<ul class="none">
+								<li>3 Cloves Garlic, Minced</li>
+								<li>1 tsp Orange Peel, Grated</li>
+                                <li><font class="frac">&frac12;</font> tsp Crushed Red Pepper Flakes</li>
+                                <li>2 Lb. Beef Top Round Roast, 1" Thick</li>
+                                <li>Hot Cooked Rice <font class="optional">(Optional)</font></li>
+                                <li><font class="frac">&frac14;</font> Cup Green Onions, Sliced</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Shake flour in the bag; place into a 13x9x2" baking pan.</li>
+                                <li>Add orange juice, teriyaki sauce, brown sugar, garlic, orange peel, and crushed red pepper flakes to the bag.</li>
+                                <li>Squeeze bag to blend in flour.</li>
+                                <li>Add beef to the bag; turn the bag to coat the beef with the sauce.</li>
+                                <li>Close the bag with the nylon tie; marinate the beef in the refridgerator for 1<font class="frac">&frac12;</font>-2 hrs.</li>
+                                <li>Preheat oven to 325&deg;.</li>
+                                <li>Cut six <font class="frac">&frac12;</font>" slits in the top of the oven bag; tuck the ends of the bag into the pan.</li>
+                                <li>Bake for 30-45 minutes or until the meat thermometer reads 145&deg;F. <font class="optional">(DO NOT OVERCOOK)</font></li>
+                                <li>Thinly slice the beef.</li>
+                                <li>Stir the sauce and serve with rice, <font class="optional">if desired</font>.</li>
+                                <li>Sprinkle with chopped green onions.</li>
+                            </ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Honey Dijon Chicken</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>1 Oven Bag, Large Size</li>
+								<li>1 tbsp Flour</li>
+                                <li>1 Can (10<font class="frac">&frac34;</font> Oz.) Condensed Cream of Chicken or Cream of Mushroom Soup</li>
+                                <li>1 Jar (4.5 Oz.) Mushrooms, Sliced & Drained <font class="optional">(Optional)</font></li>
+                                <li>2 tbsp Dijon Mustard</li>
+							</ul>
+						</td>
+                        <td style="width: auto;">
+							<ul class="none">
+								<li>1 tbsp Honey</li>
+								<li><font class="frac">&frac18;</font> tsp Paprika</li>
+                                <li><font class="frac">&frac18;</font> tsp Garlic Powder</li>
+                                <li>4 Boneless, Skinless Chicken Breast Halves</li>
+                                <li>Hot Cooked Rice</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Preheat oven to 350&deg;.</li>
+                                <li>Shake flour in oven bag; place bag into a 13x9x2" baking pan.</li>
+                                <li>Add soup, mushrooms, mustard, honey, paprika, and garlic powder to the bag.</li>
+                                <li>Squeeze bag to blend in flour; sprinkle chicken with additional paprika.</li>
+                                <li>Arrange the ingredients in an even layer inside of the bag.</li>
+                                <li>Close the bag with the nylon tie.</li>
+                                <li>Cut six <font class="frac">&frac12;</font>" slits in the top of the oven bag; tuck the ends of the bag into the pan.</li>
+                                <li>Bake for 30-35 minutes or until the meat thermometer reads 170&deg;F.</li>
+                                <li>Serve ove rhot noodles or rice.</li>
+                            </ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Baked Potato Casserole</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>8 Medium Potatoes (about 2<font class="frac">&frac12;</font>-3 Lbs. Total),Peeled & Cut Into 1" Chunks</li>
+								<li>1 Cup Evaperated Milk</li>
+                                <li><font class="frac">&frac12;</font> Cup Sour Cream</li>
+                                <li>1 tsp. Salt</li>
+							</ul>
+						</td>
+                        <td style="width: auto;">
+							<ul class="none">
+								<li><font class="frac">&frac12;</font> tsp. Black Pepper</li>
+								<li>2 Cups Cheddar Cheese, Shredded & Divided</li>
+                                <li>6 Slices Bacon, Cooked, Crumbled, & Divided</li>
+                                <li>Sliced Green Onions <font class="optional">(Optional)</font></li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+                                <li>Place potatoes into a Lg saucepan; cover with water, then bring to a boil.</li>
+                                <li>Cook over medium-high heat for about 15-20 minutes, or until tender; drain.</li>
+								<li>Preheat oven to 350&deg;; grease 2<font class="frac">&frac12;</font>-3 Qt. casserole dish.</li>
+                                <li>Return the potatoes to the saucepan; add evaperated milk, sour cream, salt, and pepper.</li>
+                                <li>Beat with hand-held mixer until smooth.</li>
+                                <li>Stir in 1<font class="frac">&frac12;</font> cups of cheese and <font class="frac">&frac12;</font> of the bacon.</li>
+                                <li>Spoon the mixture into the casserole dish.</li>
+                                <li>Bake for about 20-25 minutes or until heated through; top with the remaining <font class="frac">&frac12;</font> cup of cheese, remaining bacon, and green onions.</li>
+                                <li>Continue baking for about 3 minutes, or until the cheese is melted.</li>
+                            </ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

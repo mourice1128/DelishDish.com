@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Green Salad</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
-		<a href="top"></a>		
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>		
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -161,25 +162,38 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<div style="padding:0 16px; color:white; font-size:18px;">
-		<a style="float: left;"href="salad.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-			<h2><a style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; GREEN SALADS & VEGETABLE SALADS</h2>
-			<p>Scroll down to find the green or vegetable salad that you would like to make.</p>
-		</div>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>
+    <div>
+        <a href="salad.html" title="Back to All Salads"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <h2>Green Salads &amp; Vegetable Salads</h2>
+        <p class="story">Welcome to the healthy salad section!<br><br>Please scroll down the page to see the healthy salad choices.</p>
+    </div>
+    <!-- THIS IS WHERE YOU WOULD PUT THE PICTURE FOR THE SECTION -->
+
+    <!--<p><sub><img class="pgPic" src="Pictures/alcoholicHomer.jpg" alt="Alcoholic Homer" title="Alcoholic Homer"></sub></p>-->
+</div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
 		<div>
 			<table class="recipe">
 				<tbody>
 					<tr>
 						<td colspan="2" rowspan="1">
-							<font class="rlink">Bacon & Cantaloupe Southwest Salad</font>
+							<font class="rlink">Bacon &amp; Cantaloupe Southwest Salad</font>
 						</td>
 					</tr>
 					<tr>
 						<td style="width: auto;">
 							<ul class="none">
 								<li>1 Pkg. "Southwest" Style Salad Kit</li>
-								<li>5 Slices Bacon, Cooked & Cut Into 1" Pieces</li>
+								<li>5 Slices Bacon, Cooked &amp; Cut Into 1" Pieces</li>
 								<li>1 Cup Cantaloupe, Chopped</li>
 							</ul>
 						</td>
@@ -187,7 +201,7 @@
 							<ul class="none">
 								<li>2 tbsp Red Onion, Finely Chopped</li>
 								<li>Juice from <font class="frac">&frac12;</font> Lemon</li>
-								<li>1 Ripe Avocado, Peeled & Chopped</li>
+								<li>1 Ripe Avocado, Peeled &amp; Chopped</li>
 							</ul>
 						</td>
 					</tr>
@@ -205,7 +219,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -214,7 +227,7 @@
 				<tbody>
 					<tr>
 						<td colspan="2" rowspan="1">
-							<font class="rlink">Caesar Salad w/Grilled Beef, Tomato, & Mushroom Pesto Skewers</font>
+							<font class="rlink">Caesar Salad w/Grilled Beef, Tomato, &amp; Mushroom Pesto Skewers</font>
 						</td>
 					</tr>
 					<tr>
@@ -262,7 +275,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -300,15 +312,15 @@
 					<tr>
 						<td colspan="2" rowspan="1">
 							<ol class="some">
-								<li>In a medium skillet, stir together water, sugar, orange juice, honey, oil ,peels, lemon juice, & pepper.</li>
-								<li>Heat to boiling, reduce heat & simmer for about 15 minutes, or until sause is reduced by <font class="frac">&frac12;</font>, stirring occasionally.</li>
-								<li>Cool & Strain.</li>
+								<li>In a medium skillet, stir together water, sugar, orange juice, honey, oil ,peels, lemon juice, &amp; pepper.</li>
+								<li>Heat to boiling, reduce heat &amp; simmer for about 15 minutes, or until sause is reduced by <font class="frac">&frac12;</font>, stirring occasionally.</li>
+								<li>Cool &amp; Strain.</li>
 								<li>Remove about <font class="frac">&frac13;</font> cup for salad dressing.</li>
                                 <li>Pour remaining cooled liquid over fish in resealable plastic bag.</li>
                                 <li>Refridgerate and marinate for about 30 minutes.</li>
                                 <li>Cut cucumber in <font class="frac">&frac12;</font> lengthwise; scrape out all seeds.</li>
                                 <li>Cut each <fonat class="frac">&frac12;</fonat> into 2" pieces.</li>
-                                <li>Cut into matchstick slices & reserve for garnish.</li>
+                                <li>Cut into matchstick slices &amp; reserve for garnish.</li>
                                 <li>Remove fish from marinade; discard marinade.</li>
                                 <li>Grill or broil fish for 4-5 minutes, turn and continue cooking until deired doneness.</li>
                                 <li>Pour resevered dressing over salad; toss to evenly coat.</li>
@@ -319,7 +331,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -350,14 +361,14 @@
                                 <li>3 tbsp Olive Oil</li>
                                 <li>1 tbsp Honey</li>
                                 <li>1 tbsp Water</li>
-                                <li style="visibility: hidden;">12345678910111213141516171819202122232425262728</li> <!-- This information was hidden intetionally for spacing purposes -->
+                                <!--<li style="visibility: hidden;">12345678910111213141516171819202122232425262728</li>This information was hidden intetionally for spacing purposes -->
                             </ul>
                             <ul class="some">
                                 <li>1 tsp Oregano, Chopped</li>
                                 <li><font class="frac">&frac12;</font> tsp Dry Mustard</li>
                                 <li><font class="frac">&frac14;</font> tsp Salt</li>
                                 <li><font class="frac">&frac14;</font> tsp Ground Black Pepper</li>
-                                <li style="visibility: hidden;">12345678910111213141516171819202122232425262728</li> <!-- This information was hidden intetionally for spacing purposes -->
+                                <!--<li style="visibility: hidden;">12345678910111213141516171819202122232425262728</li>This information was hidden intetionally for spacing purposes -->
 							</ul>
 						</td>
 					</tr>
@@ -377,7 +388,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -422,7 +432,6 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
@@ -437,7 +446,7 @@
 					<tr>
 						<td style="width: auto;">
 							<ul class="none">
-								<li>2 Lbs. Red Potatoes, Cooked & Cut Into 1" Cubes</li>
+								<li>2 Lbs. Red Potatoes, Cooked &amp; Cut Into 1" Cubes</li>
 								<li><font class="frac">&frac14;</font> tsp Salt</li>
 								<li><font class="frac">&frac12;</font> Cup Green Onions, Sliced</li>
 							</ul>
@@ -446,7 +455,7 @@
 							<ul class="none">
 								<li><font class="frac">&frac34;</font> Cup Bacon Ranch Dressing</li>
 								<li>2 tbsp Fresh Chives, Chopped</li>
-								<li>Dash of Salt & Pepper</li>
+								<li>Dash of Salt &amp; Pepper</li>
 							</ul>
 						</td>
 					</tr>
@@ -465,9 +474,9 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

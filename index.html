@@ -5,12 +5,55 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="styleMenu2.css">
+        <link rel="stylesheet" href="lightbox.css">
+        
+        <!-- FIREBASE START -->
+        
+        <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  // TODO: Replace with your project's customized code snippet
+  var config = {
+    apiKey: "<API_KEY>",
+    authDomain: "<PROJECT_ID>.firebaseapp.com",
+    databaseURL: "https://<DATABASE_NAME>.firebaseio.com",
+    storageBucket: "<BUCKET>.appspot.com",
+    messagingSenderId: "<SENDER_ID>",
+  };
+  firebase.initializeApp(config);
+</script>
+        <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-messaging.js"></script>
+
+<!-- Leave out Storage -->
+<!-- <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-storage.js"></script> -->
+
+<script>
+  var config = {
+    // ...
+  };
+  firebase.initializeApp(config);
+</script>
+        
+        <!-- FIREBASE END -->
+        
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Home</title>
+          <link rel="manifest" href="/manifest.json">
+      <!-- Add to home screen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Twizted Cook Book">
+  <link rel="apple-touch-icon" href="Pictures/MainIconPic.jpg">
+      <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#2F3BA2">
+        <title>Twizted Cookbook</title>
 	</head>
 	<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -162,84 +205,64 @@
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
 		<div style="padding:0 16px; color:white; font-size:18px;">
-			<img src="Pictures/DDcom.png" height="100" width="50%">
-            <div style="margin-left: 15%"><img src="Pictures/and.png" height="50" width="10%"></div>
-            <div><img src="Pictures/Twizted%20Designs.png" width="50%" height="150"></div><br>
-            <p>For updates, be sure to update the app by going to<br><br>
-                <font id="Update" style="background-color: springgreen; color: black;">https://build.phonegap.com/apps/2144554/install</font><br><br>
-                You'll need to copy & paste the link into your browser.</p>
-            <!--<p>To update the app, use the "Copy URL" button and paste into your device's browser, and then proceed to download and install the update.</p>
-            <input style="width: 22em" id="copyme" value="https://build.phonegap.com/apps/2144554/install" />
-            <button data-clipboard-target="#copyme">Copy URL</button>
-            <br>
-            <p>App last updated on Aug 28<sup>th</sup>, 2016</p>
-            <br>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-            <button>Copy URL</button>
-            <br/>
-            <textarea style="width: 22em" readonly>https://build.phonegap.com/apps/2144554/install</textarea> -->
+            <div style="padding:0 16px; color:white; font-size:18px;">
+    <div style="padding: 10px 50px;" id="google_translate_element"></div>
+        <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                <div class="pgPic2"><img class="pgPic2" src="Pictures/TC_Full.png" alt="Twizted Cookbook"></div>
 		</div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<div class="wrap">
-  <!-- Define all of the tiles: -->
-  <div class="box">
-    <div class="boxInner"><font class="cap">Noah's Ark Cake</font>
-						<img src="Pictures/cake1.jpg" alt="Noah's Ark Cake" width="200px" height="250px" title="Noah's Ark Cake" />
-					</a>
-      <div class="titleBox">Noah's Ark Cake</div>
-    </div>
+<br><br>
+<h1>Welcome to our recipe site.</h1>
+<p>We are glad to have you here and we are excited to bring you some of our favorite recipes from over the years. Some of these have been passed around from generation to generation and have now made it into the palm of your hands. You may view this site on your computer, but you can also open this site as an app on your phone or tablet.<br><br>Please visit the <a style="color: yellow;" href="contactUs.html">Contact Us</a> page to ask for the mobile device link and instructions.</p>
+<p>Below, you will find a gallery of the projects we have worked on. We are happy to take requests for special occasions and look forward to helping you have the best party around!<br><br>For any questions about the recipes, cake design, prices, or to provide your suggestions, please visit the <a style="color: yellow;" href="contactUs.html">Contact Us</a> page</p>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="Pictures/cake1.jpg" style="width:100%">
+    <div class="text">Noah's Ark</div>
   </div>
-  <div class="box">
-    <div class="boxInner">
-      					<font class="cap">Sailor Cake</font>
-						<img src="Pictures/cake2.jpg" alt="Sailor Cake" width="200px" height="250px" title="Sailor Cake" />
-					</a>
-      <div class="titleBox">Sailor Cake</div>
-    </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="Pictures/cake2.jpg" style="width:100%">
+    <div class="text">Sailor</div>
   </div>
-  <div class="box">
-    <div class="boxInner">
-					<font class="cap">Pineapple Cupcakes w/Mango Frosting</font>
-						<img src="Pictures/cupcakes1.jpg" alt="Pineapple Cupcakes" width="200px" height="250px" title="Pineapple Cupckaes w/Mango Frosting" />
-      <div class="titleBox">Pineapple Cupcakes</div>
-    </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+      <a style="color: white; text-decoration: none;" href="funCakes.html#pineappleCupcakes"><img src="Pictures/cupcakes1.jpg" style="width:100%"></a>
+      <div class="text"><a style="color: white; text-decoration: none;" href="funCakes.html#pineappleCupcakes">Pineapple Cupcakes</a></div>
   </div>
-  <div class="box">
-    <div class="boxInner">
-					<font class="cap">Spice Cake</font>
-						<img src="Pictures/SpiceCake.jpg" alt="Spice Cake" width="200px" height="250px" title="Spice Cake" />
-      <div class="titleBox">Spice Cake</div>
-    </div>
+    
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+      <a style="color: white; text-decoration: none;" href="funCakes.html#pineappleCupcakes"><img src="Pictures/cupcakes1.jpg" style="width:100%"></a>
+      <div class="text"><a style="color: white; text-decoration: none;" href="funCakes.html#pineappleCupcakes">Pineapple Cupcakes</a></div>
   </div>
-  <div class="box">
-    <div class="boxInner">
-					<font class="cap">Daisy Cupcake</font>
-						<img src="Pictures/background1.jpg" alt="Daisy Cupcakes" width="200px" height="250px" title="Daisy Cupcake" />
-      <div class="titleBox">Daisy Cupcake</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-					<font class="cap">Chocolate Chip Cookies</font>
-						<img src="Pictures/ChocChipCookie.jpg" alt="Chocolate Chip Cookies" width="200px" height="250px" title="Chocolate Chip Cookies" />
-      <div class="titleBox">Chocolate Chip Cookies</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-					<font class="cap">Pumpkin Pie</font>
-						<img src="Pictures/PumpkinPie.jpg" alt="Pumpkin Pie" width="200px" height="250px" title="Pumpkin Pie" />
-      <div class="titleBox">Pumpkin Pie</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-					<font class="cap">Chili-Roni</font>
-						<img src="Pictures/ChiliRoni.jpg" alt="Chili-Roni" width="200px" height="250px" title="Chili-Roni" />
-      <div class="titleBox">Chili-Roni</div>
-    </div>
-  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+
+
+<script src="lightbox.js"></script>
+
+
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

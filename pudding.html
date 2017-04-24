@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Pudding</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
-		<a href="top"></a>		
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>		
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -161,101 +162,64 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<div style="padding:0 16px; color:white; font-size:18px;">
-		<a style="float: left;"href="dessert.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-			<h2 style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; <img src="Pictures/pudding.PNG" width="300" height="75"></h2>
-			<p>Scroll down to find the pudding that you would like to make.</p>
-		</div>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>
+    <div>
+        <a href="dessert.html" title="Back to All Desserts"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <!--<h2>Pudding</h2>-->
+        <p><sub><img class="pgPic" src="Pictures/pudding.png" alt="Pudding" title="Pudding"></sub></p>
+        <p class="story">Welcome to the pudding section!<br><br>Please scroll down the page to see the delicious puddings.</p>
+    </div>
+</div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-		<div>
-			<table class="recipe">
-				<tbody>
-					<tr>
-						<td colspan="2" rowspan="1">
-							<font class="rlink">Creamy Banana Pudding</font>
-						</td>
-					</tr>
-					<tr>
-						<td style="width: auto;">
-							<ul class="none">
-								<li>1 pkg. Banana Cream Instant Pudding Mix</li>
-								<li>2 Cups Milk</li>
-							</ul>
-						</td>
-						<td style="width: auto;">
-							<ul class="none">
-								<li>2 Cups Nilla<sup>&reg;</sup> Wafers</li>
-								<li>2 Lg. Bananas, Sliced Into <font class="frac">&frac12;</font>" Pieces</li>
-                                <li>Caramel Sauce <font class="optional">(Optional)</font></li>
-							</ul>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="2" rowspan="1">
-							<ol class="some">
-								<li>In a large bowl, combine the pudding mix and milk.</li>
-								<li>Whisk together for 2 minutes.</li>
-								<li>Refridgerate for 5 minutes, or until pudding is set.</li>
-								<li>In 4 bowls, spoon some of the pudding followed by some of the Nilla<sup>&reg;</sup> Wafers and banana slices.</li>
-								<li>Repeat with remaining ingredients.</li>
-								<li>Drizzle with caramel sauce. <font class="optional">(If desired)</font></li>
-							</ol>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
-		</div>
+<div>
+    <table class="recipe">
+        <tbody>
+            <tr>
+                <td colspan="2" rowspan="1">
+                    <font class="rlink">Creamy Banana Pudding</font>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <ul class="none">
+                        <li>1 pkg. Banana Cream Instant Pudding Mix</li>
+                        <li>2 Cups Milk</li>
+                    </ul>
+                </td>
+                <td style="width: auto;">
+                    <ul class="none">
+                        <li>2 Cups Nilla<sup>&reg;</sup> Wafers</li>
+                        <li>2 Lg. Bananas, Sliced Into <font class="frac">&frac12;</font>" Pieces</li>
+                        <li>Caramel Sauce <font class="optional">(Optional)</font></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="1">
+                    <ol class="some">
+                        <li>In a large bowl, combine the pudding mix and milk.</li>
+                        <li>Whisk together for 2 minutes.</li>
+                        <li>Refridgerate for 5 minutes, or until pudding is set.</li>
+                        <li>In 4 bowls, spoon some of the pudding followed by some of the Nilla<sup>&reg;</sup> Wafers and banana slices.</li>
+                        <li>Repeat with remaining ingredients.</li>
+                        <li>Drizzle with caramel sauce. <font class="optional">(If desired)</font></li>
+                    </ol>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-		<div>
-			<table class="recipe">
-				<tbody>
-					<tr>
-						<td colspan="2" rowspan="1">
-							<font class="rlink">** UNKOWN RECIPE **</font>
-						</td>
-					</tr>
-					<tr>
-						<td style="width: auto;">
-							<ul class="none">
-								<li>2<font class="frac">&frac13;</font> Cups Flour</li>
-								<li>1 tbsp Baking Powder</li>
-								<li><font class="frac">&frac34;</font> tsp Salt</li>
-								<li><font class="frac">1&frac12;</font> Cups Sugar</li>
-								<li><font class="frac">&frac12;</font> Cup Butter</li>
-							</ul>
-						</td>
-						<td style="width: auto;">
-							<ul class="none">
-								<li><font class="frac">&frac12;</font> Cup Shortening</li>
-								<li>2 Eggs</li>
-								<li>1 Cup Milk</li>
-								<li>1 tsp Vanilla</li>
-								<li><font class="frac">&frac23;</font> Cup Brown Sugar</li>
-								<li>1 Can Pineapple Rings</li>
-							</ul>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="2" rowspan="1">
-							<ol class="some">
-								<li>Pre-heat oven to 350&deg;.</li>
-								<li>Sift together flour, baking powder, salt, and sugar.</li>
-								<li>Cut in shortening until fine crumbs are formed.</li>
-								<li>Add eggs, milk, and vanilla. Beat at low speed for 1 minute, then high for 2 minutes, scraping the bowl frequently.</li>
-								<li>Melt butter in the bottom of 9x13" pan, add brown sugar and stir into butter.</li>
-								<li>Arrange pinapple rings in the bottom of pan</li>
-								<li>Pour into 9x13" pan and bake for 30-35 minutes.</li>
-								<li>Cool for 5 minutes, then invert and serve.</li>
-							</ol>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
-		</div>
-<br>
-<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

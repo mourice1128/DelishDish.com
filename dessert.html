@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Desserts</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
-	<a href="top"></a>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -161,14 +162,27 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-		<div style="padding:0 16px; color:white; font-size:18px;">
-		<a style="float: left;"href="index.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-			<h2><a style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; DESSERTS</h2>
-			<p>Select one of the following links for the specific type of dessert you would like.</p>
-		</div>
-				<ul>
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>
+    <div>
+        <a href="index.html" title="Back to Home"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <h2>Desserts</h2>
+        <p class="story">Welcome to the dessert section!<br><br>Please select one of the following types of dessert to make.</p>
+    </div>
+    <!-- THIS IS WHERE YOU WOULD PUT THE PICTURE FOR THE SECTION -->
+
+    <!--<p><sub><img class="pgPic" src="Pictures/alcoholicHomer.jpg" alt="Alcoholic Homer" title="Alcoholic Homer"></sub></p>-->
+</div>
+				<ul class="splashBullets">
 					<li><a class="splashPageLinks" href="cakes.html">Cakes</a></li><br>
-						<ul>
+						<ul class="splashBullets">
 							<li><a class="splashPageLinks" href="birthdayCakes.html">Birthday Cakes</a></li><br>
 							<li><a class="splashPageLinks" href="weddingCakes.html">Wedding Cakes</a></li><br>
 							<li><a class="splashPageLinks" href="holidayCakes.html">Holiday Cakes</a></li><br>
@@ -176,29 +190,29 @@
 							<li><a class="splashPageLinks" href="miscCakes.html">Misc. Cakes</a></li><br>
 						</ul>
 					<li><a class="splashPageLinks" href="regBrownies.html">Brownies</a></li><br>
-						<ul>
+						<ul class="splashBullets">
 							<li><a class="splashPageLinks" href="holidayBrownies.html">Holiday Brownies</a></li><br>
 						</ul>
 					<li><a class="splashPageLinks" href="regCookies.html">Cookies</a></li><br>
-						<ul>
+						<ul class="splashBullets">
 							<li><a class="splashPageLinks" href="holidayCookies.html">Holiday Cookies</a></li><br>
 						</ul>
 					<li><a class="splashPageLinks" href="frosting.html">Frostings</a></li><br>
-						<ul>
+						<ul class="splashBullets">
 							<li><a class="splashPageLinks" href="cakeFrosting.html">Cake Frosting</a></li><br>
 							<li><a class="splashPageLinks" href="brownieFrosting.html">Brownie Frosting</a></li><br>
 							<li><a class="splashPageLinks" href="cookieFrosting.html">Cookie Frosting</a></li><br>
 						</ul>
 					<li><a class="splashPageLinks" href="fondant.html">Fondant</a></li><br>
 					<li><a class="splashPageLinks" href="regPie.html">Pie</a></li><br>
-						<ul>
+						<ul class="splashBullets">
 							<li><a class="splashPageLinks" href="holidayTreats.html">Holiday Pie</a></li><br>
 						</ul>
 					<li><a class="splashPageLinks" href="pudding.html">Pudding</a></li><br>
 					<li><a class="splashPageLinks" href="iceCream.html">Ice Cream</a></li><br>
 					<li><a class="splashPageLinks" href="miscDessert.html">Misc.</a></li>
 				</ul>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<script src="scrollFunc.js"></script>
 	</body>
 </html>

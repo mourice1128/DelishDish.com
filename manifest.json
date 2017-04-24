@@ -1,0 +1,29 @@
+{
+  "name": "The Twizted Cook Book",
+  "short_name": "The Twizted Cookbook",
+  "icons": [{
+    "src": "Pictures/MainIconPic.jpg",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "Pictures/MainIconPic.jpg",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "Pictures/MainIconPic.jpg",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "Pictures/MainIconPic.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "Pictures/MainIconPic.jpg",
+      "sizes": "256x256",
+      "type": "image/png"
+    }],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#80ced6",
+  "theme_color": "#80ced6"
+}

@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Holiday Pies</title>
+		<title>Twizted Cookbook</title>
 	</head>
 	<body>
-	<a href="top"></a>	
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <nav class="nav">
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -161,18 +162,79 @@
 	</select>
 </nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<div style="padding:0 16px; color:white; font-size:18px;">
-	<a style="float: left;"href="pies.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
-	<h2><a style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; HOLIDAY PIES & TREATS</h2>
-		</div>
-<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<div class="divIndent">
+    <div class="googleTrans" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <br>
+    <div>
+        <a href="pies.html" title="Back to All Pies"><img class="back" src='Pictures/backArrow.png' alt="Back"></a><br><br>
+        <h2>Holiday Pies &amp; Other Tasty Treats</h2>
+        <p class="story">Welcome to the holiday treats section!<br><br>Please scroll down the page to see the tempting holiday-themed pies &amp; other treats.</p>
+    </div>
+    <!-- THIS IS WHERE YOU WOULD PUT THE PICTURE FOR THE SECTION -->
+
+    <!--<p><sub><img class="pgPic" src="Pictures/alcoholicHomer.jpg" alt="Alcoholic Homer" title="Alcoholic Homer"></sub></p>-->
+</div>
+
+<!-- OR THIS MIGHT BE IN PLACE OF THE PICTURE ABOVE -->
+
+     <div class="holBanner">
+        <div style="width: 100%; text-align: center;">
+        <a href='holidayTreats.html#Val'><img src="Pictures/valPic.png" class="bannerIcons" alt="Valentine's Day" title="Valentine's Day"></a>
+        &nbsp;
+        <a href='hholidayTreats.html#SP'><img src="Pictures/SPpic.png" class="bannerIcons" alt="St. Patrick's Day" title="St. Patrick's Day"></a>
+        &nbsp;
+        <a href='holidayTreats.html#Easter'><img src="Pictures/easter.png" class="bannerIcons" alt="Easter" title="Easter"></a>
+        &nbsp;
+        <a href='holidayTreats.html#4th'><img src="Pictures/4thPic.png" class="bannerIcons" alt="4th of July" title="4th of July"></a>
+        &nbsp;
+        <a href='holidayTreats.html#Halloween'><img src="Pictures/halloween.png" class="bannerIcons" alt="Halloween" title="Halloween"></a>
+        &nbsp;
+        <a href='holidayTreats.html#TG'><img src="Pictures/thanks.png" class="bannerIcons" alt="Thanksgiving" title="Thanksgiving"></a>
+        &nbsp;
+        <a href='holidayTreats.html#Christmas'><img src="Pictures/christmas.png" class="bannerIcons" alt="Christmas" title="Christmas"></a>
+        &nbsp;
+        <a href='holidayTreats.html#SB'><img src="Pictures/Super_Bowl_logo.png" class="bannerIcons" alt="Super Bowl" title="Super Bowl"></a>
+        </div>
+    </div>
+<br>
+<br>
+    <div id="Val">
+        <font class="holResDiv" style="color: #f2082c;">VALENTINE'S DAY TREATS</font>
+    </div>
+<br>
+    <div id="SP">
+        <font class="holResDiv" style="color: #08f708;">ST. PATRICK'S DAY TREATS</font>
+    </div>
+<br>
+    <div id="Easter">
+        <font class="holResDiv" style="color: #85f1fa;">EASTER TREATS</font>
+    </div>
+<br>
+    <div id="4th">
+        <font class="holResDiv" style="color: #4d4dea;">4TH OF JULY TREATS</font>
+    </div>
+<br>
+    <div id="Halloween">
+        <font class="holResDiv" style="color: #fc6e06;">HALLOWEEN TREATS</font>
+    </div>
+<br>
+    <div id="Fall">
+        <font class="holResDiv" style="color: #805533">THANKSGIVING TREATS</font>
+    </div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
 		<div>
 			<table class="recipe">
 				<tbody>
 					<tr>
 						<td colspan="2" rowspan="1">
 							<font class="rlink">Pumpkin Pie</font>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -183,6 +245,7 @@
 								<li><font class="frac">&frac12;</font> Cup Sugar</li>
 								<li>1 Can Evaporated Milk</li>
 							</ul>
+                        </td>
 						<td style="width: auto;">
 							<ul class="none">
 								<li>1 Tbsp Soft Butter</li>
@@ -190,7 +253,6 @@
 								<li>1 tsp Vanilla</li>
 								<li>2 Eggs</li>
 							</ul>
-						</td>
 						</td>
 					</tr>
 					<tr>
@@ -205,9 +267,106 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
 <br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+    <div id="Christmas">
+        <font class="holResDiv" style="color: #b20000;">CHRISTMAS TREATS</font>
+    </div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Holiday Present Treats</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>3 tbs. Butter</li>
+                                <li>1 Pkg. (10 Oz.) Marshmallows</li>
+								<li>6 Cups Crispy Rice Cereal</li>
+								<li>6 Cups Cocoa Crispy Rice Cereal</li>
+							</ul>
+                        </td>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>Prepared Frosting or Decorating Gel</li>
+								<li>Assorted Candies</li>
+								<li>Red string Licorice</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Melt butter in Lg. saucepan over low heat.</li>
+								<li>Add marshmallows and stir until completely melted; remove from heat.</li>
+								<li>Add cereals, stirring until well coated.</li>
+								<li>Using a buttered spatula or wax paper, evenly press into a 13"x9"x2" greased pan.</li>
+                                <li>Cool; cut into 2" squares.</li>
+                                <li>Use frosting to fasten stacks of 2 squares together.<br>
+                                Decorate with additional frosting and/or candies.<br>
+                                Tie bows on packages with the licorice.<br>
+                                Best if served the same day.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+    		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<font class="rlink">Reindeer Snacks</font>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: auto;">
+							<ul class="none">
+								<li>3 Cups Butter Popcorn, Popped</li>
+                                <li>3 Cups Bugles<sup>&reg;</sup> Corn Snacks</li>
+								<li>2 Cups Pretzel Sticks</li>
+								<li>1 Cup Toasted O Cereal</li>
+							</ul>
+                        </td>
+						<td style="width: auto;">
+							<ul class="none">
+								<li><font class="frac">&frac13;</font> Cup Butter, Melted</li>
+								<li><font class="frac">&frac12;</font> tsp. Chili Powder</li>
+								<li><font class="frac">&frac14;</font> tsp. Garlic Powder</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Heat over to 300&deg;.</li>
+								<li>In Lg bowl, mix popcorn, snacks, pretzels, and cereal.</li>
+								<li>In a small bowl, mix remaining ingredients.</li>
+								<li>Drizzle over the popcorn mixture, tossing until evenly coated.</li>
+                                <li>Spread into an un-greased 15"x10"x1" pan.</li>
+                                <li>Bake uncovered for 15 minutes, stirring twice.</li>
+                                <li>Cool; store loosly covered at room temp for up to 2 weeks</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+<br>
+    <div id="SB">
+        <font class="holResDiv" style="color: #FF007C;">SUPER BOWL TREATS</font>
+    </div>
+<script src="scrollFunc.js"></script>
 	</body>
 </html>
